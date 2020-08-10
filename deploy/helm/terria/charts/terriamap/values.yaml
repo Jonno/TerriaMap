@@ -12,7 +12,7 @@ clientConfig:
     bingMapsKey: AkaOmRFtjAb71cXgLwAGtLbj2RpkPKtVqAIroFQsocfurCBILxIeAWPkil7hhRy_
     disclaimer:
       text: "Disclaimer: This map must not be used for navigation or precise spatial analysis"
-      url: "http://google.com"
+      url: "https://google.com"
     globalDisclaimer:
       confirmationRequired: true
       buttonTitle: "I agree"
@@ -21,19 +21,19 @@ clientConfig:
       devHostRegex: "\\b(staging|preview|test|dev)\\."
       enableOnLocalhost: true
     developerAttribution:
-      text: "Your organisation"
-      link: "http://www.example.com"
+      text: "Northern Land Council"
+      link: "https://nlc.org.au"
     appName: "Terria Map"
-    brandBarElements: ["", "<a target=\"_blank\" href=\"http://terria.io\"><img src=\"images/terria_logo.png\" height=\"52\" title=\"Version: {{version}}\" /></a>", ""]
-    supportEmail: "help@example.com"
+    brandBarElements: ["", "<a target=\"_blank\" href=\"https://nlc.org.au\"><img src=\"images/northern-land-council.png\" height=\"52\" title=\"Version: {{version}}\" /></a>", ""]
+    supportEmail: "premits@nlc.org.au"
     mobileDefaultViewerMode: "2d"
     experimentalFeatures: true
 initConfig:
   homeCamera:
-    north: "-8"
-    east: "158"
-    south: "-45"
-    west: "109"
+    north: "-10.7"
+    east: "138.2"
+    south: "-26.2"
+    west: "128.9"
   catalog: []
 serverConfig:
   port: 3001
