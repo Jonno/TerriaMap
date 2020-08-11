@@ -20,7 +20,7 @@
                 "isEnabled": true,
                 "isHidden": false,
                 "isShown": true,
-                "zoomOnEnable": true
+                "zoomOnEnable": false
               },
               {
                 "name": "Aboriginal Land Trusts",
