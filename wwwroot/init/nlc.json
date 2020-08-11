@@ -83,7 +83,7 @@
         {
             "name": "National Data Sets",
             "type": "group",
-            "isOpen": false
+            "isOpen": false,
             "items": [
               {
                 "name": "NLC Permit Regions",
@@ -91,7 +91,7 @@
                 "url": "public/kmz/NLCRegions.kmz",
                 "isEnabled": true,
                 "isHidden": false,
-                "isShown": true,
+                "isShown": false,
                 "zoomOnEnable": false
               }
             ]
