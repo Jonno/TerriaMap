@@ -19,8 +19,7 @@
                 "url": "public/kmz/NLCRegions.kmz",
                 "isEnabled": true,
                 "isHidden": false,
-                "isShown": true,
-                "zoomOnEnable": false
+                "isShown": true
               },
               {
                 "name": "Aboriginal Land Trusts",
@@ -93,5 +92,5 @@
           "east": 158,
           "south": -45,
           "west": 109
-          },
+          }
 }
