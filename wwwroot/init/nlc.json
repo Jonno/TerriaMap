@@ -19,6 +19,11 @@
                 "url": "public/kmz/NLCRegions.kmz"
               },
               {
+                "name": "Aboriginal Land Trust",
+                "type": "kml",
+                "url": "public/kmz/ALTs.kmz"
+              },
+              {
                 "name": "ALRA Sec-7",
                 "type": "kml",
                 "url": "public/kmz/ALRA-Sec7s.kmz"
