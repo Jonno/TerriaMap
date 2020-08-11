@@ -34,9 +34,39 @@
                 "url": "public/kmz/RangerGroups.kmz"
               },
               {
+                "name": "Family Outstations",
+                "type": "kml",
+                "url": "public/kmz/Places-FamilyOutstations-191013.kmz"
+              },
+              {
+                "name": "Parks In NLC Regions",
+                "type": "kml",
+                "url": "public/kmz/ParksinNLCRegion.kmz"
+              },
+              {
                 "name": "Indigenous Language Groups",
                 "type": "kml",
                 "url": "public/kmz/LanguageGroupMap.kmz"
+              },
+              {
+                "name": "Hema Points Of Interest",
+                "type": "kml",
+                "url": "public/kmz/HemaPointsofInterest.kmz"
+              },
+              {
+                "name": "Hema Roads Service Sites",
+                "type": "kml",
+                "url": "public/kmz/HemaRoadServiceSites.kmz"
+              },
+              {
+                "name": "Place Names",
+                "type": "kml",
+                "url": "public/kmz/Places-MajorandMinor-191013.kmz"
+              },
+              {
+                "name": "Other Place Names",
+                "type": "kml",
+                "url": "public/kmz/Places-AllOthers-191016.kmz"
               }
             ]
         },
@@ -45,5 +75,11 @@
             "type": "group",
             "isOpen": false
         }
-    ]
+    ],
+    "initalCamera": {
+          "north": -8,
+          "east": 158,
+          "south": -45,
+          "west": 109
+          },
 }
