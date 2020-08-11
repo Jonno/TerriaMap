@@ -69,11 +69,11 @@
         // True to display welcome message on startup.
         // "showWelcomeMessage": false,
 
-        True to display in-app guides.
-        "showInAppGuides": false,
+        // True to display in-app guides.
+        //"showInAppGuides": false,
 
-        True to display new feature popups.
-        "showFeaturePrompts": false,
+        // True to display new feature popups.
+        // "showFeaturePrompts": false,
 
     }
 }
