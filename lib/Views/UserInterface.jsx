@@ -34,7 +34,7 @@ export default function UserInterface(props) {
     <StandardUserInterface {...props} version={version}>
       <Menu>
         <RelatedMaps viewState={props.viewState} />
-        <MenuItem caption="About" href="about.html" key="about-link" />
+        <MenuItem caption="NLC" href="https://nlc.org.au" key="about-link" />
         <MenuItem
           caption="Permits"
           href="https://permits.nlc.org.au"
