@@ -31,7 +31,7 @@
                 "isShown": true
               },
               {
-                "name": "ALRA Sec-7",
+                "name": "ALRA Schedule 7 Access Areas",
                 "type": "kml",
                 "url": "public/kmz/ALRA-Sec7s.kmz",
                 "isEnabled": true,
