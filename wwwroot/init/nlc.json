@@ -16,17 +16,27 @@
               {
                 "name": "NLC Permit Regions",
                 "type": "kml",
-                "url": "public/kmz/NLCRegions.kmz"
+                "url": "public/kmz/NLCRegions.kmz",
+                "isEnabled": true,
+                "isHidden": false,
+                "isShown": true,
+                "zoomOnEnable": true
               },
               {
-                "name": "Aboriginal Land Trust",
+                "name": "Aboriginal Land Trusts",
                 "type": "kml",
-                "url": "public/kmz/ALTs.kmz"
+                "url": "public/kmz/ALTs.kmz",
+                "isEnabled": true,
+                "isHidden": false,
+                "isShown": true
               },
               {
                 "name": "ALRA Sec-7",
                 "type": "kml",
-                "url": "public/kmz/ALRA-Sec7s.kmz"
+                "url": "public/kmz/ALRA-Sec7s.kmz",
+                "isEnabled": true,
+                "isHidden": false,
+                "isShown": true
               },
               {
                 "name": "NLC Ranger Groups",

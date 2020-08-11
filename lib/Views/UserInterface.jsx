@@ -35,7 +35,11 @@ export default function UserInterface(props) {
       <Menu>
         <RelatedMaps viewState={props.viewState} />
         <MenuItem caption="About" href="about.html" key="about-link" />
-        <MenuItem caption="NLC" href="https://nlc.org.au" key="nlc-link" />
+        <MenuItem
+          caption="Permits"
+          href="https://permits.nlc.org.au"
+          key="nlc-link"
+        />
       </Menu>
       <Nav>
         <MeasureTool terria={props.viewState.terria} key="measure-tool" />
