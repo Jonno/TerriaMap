@@ -31,7 +31,7 @@
                 "isShown": true
               },
               {
-                "name": "ALRA Schedule 7 Access Areas",
+                "name": "ALRA Schedule 7 Access",
                 "type": "kml",
                 "url": "public/kmz/ALRA-Sec7s.kmz",
                 "isEnabled": true,
@@ -41,7 +41,9 @@
               {
                 "name": "NLC Ranger Groups",
                 "type": "kml",
-                "url": "public/kmz/RangerGroups.kmz"
+                "url": "public/kmz/RangerGroups.kmz",
+                "isEnabled": true,
+                "isHidden": false
               },
               {
                 "name": "Family Outstations",
