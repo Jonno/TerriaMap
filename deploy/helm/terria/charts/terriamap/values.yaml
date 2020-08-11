@@ -9,7 +9,7 @@ clientConfig:
   - helm
   - terria
   parameters:
-    bingMapsKey: AkaOmRFtjAb71cXgLwAGtLbj2RpkPKtVqAIroFQsocfurCBILxIeAWPkil7hhRy_
+    bingMapsKey: An-jF5aWaqu7h03teRI9bMHPclY9-NptL_eH_8GoMFG40HAzgWSKGfWVFYusBRVT
     disclaimer:
       text: "Disclaimer: This map must not be used for navigation or precise spatial analysis"
       url: "https://google.com"
