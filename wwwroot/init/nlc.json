@@ -11,7 +11,29 @@
             "name": "Northern Land Council",
             "type": "group",
             "isPromoted": true,
-            "isOpen": true
+            "isOpen": true,
+            "items": [
+              {
+                "name": "NLC Permit Regions",
+                "type": "kml",
+                "url": "public/kmz/NLCRegions.kmz"
+              },
+              {
+                "name": "ALRA Sec-7",
+                "type": "kml",
+                "url": "public/kmz/ALRA-Sec7s.kmz"
+              },
+              {
+                "name": "NLC Ranger Groups",
+                "type": "kml",
+                "url": "public/kmz/RangerGroups.kmz"
+              },
+              {
+                "name": "Indigenous Language Groups",
+                "type": "kml",
+                "url": "public/kmz/LanguageGroupMap.kmz"
+              }
+            ]
         },
         {
             "name": "National Data Sets",

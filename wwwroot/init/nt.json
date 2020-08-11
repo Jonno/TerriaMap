@@ -11,7 +11,24 @@
             "name": "Northern Territory Government",
             "type": "group",
             "isPromoted": true,
-            "isOpen": true
+            "isOpen": true,
+            "items": [
+              {
+                "name": "Pastoral Stations",
+                "type": "kml",
+                "url": "public/kmz/PastoralStations.kmz"
+              },
+              {
+                "name": "Police Stations",
+                "type": "kml",
+                "url": "public/kmz/PoliceStations.kmz"
+              },
+              {
+                "name": "NT Government Roads",
+                "type": "kml",
+                "url": "public/kmz/RoadsControlledbyNTG.kmz"
+              }
+            ]
         },
         {
             "name": "National Data Sets",
