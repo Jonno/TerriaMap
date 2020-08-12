@@ -35,7 +35,9 @@
                 "url": "public/kmz/ALRA-Sec7s.kmz",
                 "isEnabled": true,
                 "isHidden": false,
-                "isShown": true
+                "isShown": true,
+                "shortReport": "Shows Towns and boundaries where permits are not required.",
+                "description": "The Towns and boundaries where NLC permits are not required.",
               },
               {
                 "name": "NLC Ranger Groups",
@@ -53,6 +55,11 @@
                 "name": "Parks In NLC Regions",
                 "type": "kml",
                 "url": "public/kmz/ParksinNLCRegion.kmz"
+              },
+              {
+                "name": "Test Parks In NLC Regions",
+                "type": "kml",
+                "url": "public/kmz/ParksinNLCRegion.kml"
               },
               {
                 "name": "Indigenous Language Groups",
