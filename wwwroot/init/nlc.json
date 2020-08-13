@@ -27,7 +27,9 @@
                 "url": "public/kmz/ALTs.kmz",
                 "isEnabled": true,
                 "isHidden": false,
-                "isShown": true
+                "isShown": true,
+                "shortReport": "Boundaries of all Aboriginal Land Trusts managed by the NLC.",
+                "description": "Boundaries of all Aboriginal Land Trusts managed by the NLC.",
               },
               {
                 "name": "ALRA Schedule 7 Access",
@@ -44,7 +46,10 @@
                 "type": "kml",
                 "url": "public/kmz/RangerGroups.kmz",
                 "isEnabled": true,
-                "isHidden": false
+                "isHidden": false,
+                "shortReport": "Operational areas of NLC Ranger Groups.",
+                "description": "Operational areas of NLC Ranger Groups."
+
               },
               {
                 "name": "Family Outstations",
@@ -57,9 +62,20 @@
                 "url": "public/kmz/ParksinNLCRegion.kmz"
               },
               {
-                "name": "Test Parks In NLC Regions",
+                "name": "Major Watercourses in NLC regions",
                 "type": "kml",
-                "url": "public/kmz/ParksinNLCRegion.kml"
+                "url": "public/kmz/MajorWatercourses.kmz",
+                "shortReport": "Major Watercourses in NLC regions",
+                "description": "Major Watercourses in NLC regions"
+
+              },
+              {
+                "name": "Hema Campsites in NLC regions",
+                "type": "kml",
+                "url": "public/kmz/HemaCampsitesinALTs.kmz",
+                "shortReport": "Hema published campsites in NLC regions",
+                "description": "Hema published campsites in NLC regions"
+
               },
               {
                 "name": "Indigenous Language Groups",
