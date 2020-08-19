@@ -19,15 +19,17 @@
                 "url": "public/kmz/NLCRegions.kmz",
                 "isEnabled": true,
                 "isHidden": false,
-                "isShown": true
+                "isShown": true,
+                "isLegendVisible": false,
               },
               {
                 "name": "Aboriginal Land Trusts",
                 "type": "kml",
                 "url": "public/kmz/ALTs.kmz",
                 "isEnabled": true,
-                "isHidden": false,
-                "isShown": true,
+                "isHidden": true,
+                "isShown": false,
+                "isLegendVisible": false,
                 "shortReport": "Boundaries of all Aboriginal Land Trusts managed by the NLC.",
                 "description": "Boundaries of all Aboriginal Land Trusts managed by the NLC.",
               },
@@ -38,6 +40,7 @@
                 "isEnabled": true,
                 "isHidden": false,
                 "isShown": true,
+                "isLegendVisible": false,
                 "shortReport": "Shows Towns and boundaries where permits are not required.",
                 "description": "The Towns and boundaries where NLC permits are not required.",
               },
@@ -47,23 +50,46 @@
                 "url": "public/kmz/RangerGroups.kmz",
                 "isEnabled": true,
                 "isHidden": false,
+                "isLegendVisible": false,
                 "shortReport": "Operational areas of NLC Ranger Groups.",
                 "description": "Operational areas of NLC Ranger Groups."
 
               },
               {
+                "id": "54a553a0",
+                "name": "Radio Licenses - ACMA",
+                "layers": "acma_licenses,acma_sites",
+                "url": "http://gis.aremi.data61.io/acma/wms",
+                "type": "wms",
+                "opacity": 1.0,
+                "legendUrl": "http://geo-prototype1.aremi.d61.io/acma/wms?service=WMS&request=GetLegendGraphic&width=20&height=20&layer=acma_sites&format=image%2Fpng&.png",
+                "parameters": {
+                  "feature_count": 2001
+                },
+                "dataUrl": "http://geo-prototype1.aremi.d61.io/acma/wfs?service=WFS&request=GetFeature&typeName=acma%3Aacma_licenses&version=1.1.0&outputFormat=JSON&srsName=EPSG%3A4326",
+                "dataUrlType": "wfs-complete",
+                "featureInfoTemplate" : {
+                  "template": "<% include includes/acma_featureinfo %>",
+                  "name": "{{#LICENCE_NO}}Licence: {{{LICENSEE}}}, {{PRETTY_FREQ}}{{/LICENCE_NO}}{{^LICENCE_NO}}Site: {{{SITE_NAME}}}{{/LICENCE_NO}}"
+                },
+                "dataCustodian": "[Australian Communications and Media Authority](http://www.acma.gov.au/)"
+              },
+              {
                 "name": "Family Outstations",
                 "type": "kml",
+                "isLegendVisible": false,
                 "url": "public/kmz/Places-FamilyOutstations-191013.kmz"
               },
               {
-                "name": "Parks In NLC Regions",
+                "name": "Parks and Reserves In NLC Regions",
                 "type": "kml",
+                "isLegendVisible": false,
                 "url": "public/kmz/ParksinNLCRegion.kmz"
               },
               {
                 "name": "Major Watercourses in NLC regions",
                 "type": "kml",
+                "isLegendVisible": false,
                 "url": "public/kmz/MajorWatercourses.kmz",
                 "shortReport": "Major Watercourses in NLC regions",
                 "description": "Major Watercourses in NLC regions"
@@ -72,6 +98,7 @@
               {
                 "name": "Hema Campsites in NLC regions",
                 "type": "kml",
+                "isLegendVisible": false,
                 "url": "public/kmz/HemaCampsitesinALTs.kmz",
                 "shortReport": "Hema published campsites in NLC regions",
                 "description": "Hema published campsites in NLC regions"
@@ -80,26 +107,31 @@
               {
                 "name": "Indigenous Language Groups",
                 "type": "kml",
+                "isLegendVisible": false,
                 "url": "public/kmz/LanguageGroupMap.kmz"
               },
               {
                 "name": "Hema Points Of Interest",
                 "type": "kml",
+                "isLegendVisible": false,
                 "url": "public/kmz/HemaPointsofInterest.kmz"
               },
               {
                 "name": "Hema Roads Service Sites",
                 "type": "kml",
+                "isLegendVisible": false,
                 "url": "public/kmz/HemaRoadServiceSites.kmz"
               },
               {
                 "name": "Place Names",
                 "type": "kml",
+                "isLegendVisible": false,
                 "url": "public/kmz/Places-MajorandMinor-191013.kmz"
               },
               {
                 "name": "Other Place Names",
                 "type": "kml",
+                "isLegendVisible": false,
                 "url": "public/kmz/Places-AllOthers-191016.kmz"
               }
             ]
