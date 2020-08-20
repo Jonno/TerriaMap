@@ -92,24 +92,6 @@
                 "url": "public/kmz/LanguageGroupMap.kmz"
               },
               {
-                "layers": "ckan_225a1af2_9b93_4162_9fe6_11e165255942",
-                "url": "https://data.gov.au/geoserver/nt-local-government-areas-psma-administrative-boundaries/wms",
-                "type": "wms",
-                "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)\n\n[nfrip@ga.gov.au](mailto:nfrip@ga.gov.au)",
-                "name": "Local Government Areas NT",
-                "isEnabled": true,
-                "isHidden": false,
-                "isLegendVisible": false,
-                "dataUrlType": "direct",
-                "dataUrl": "http://www.data.gov.au/dataset/nt-local-government-areas-psma-administrative-boundaries",
-                "info": [
-                  {
-                    "name": "Licence",
-                    "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
-                  }
-                ]
-              },
-              {
                 "name": "Hema Points Of Interest",
                 "type": "kml",
                 "isLegendVisible": false,

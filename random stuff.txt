@@ -1,0 +1,32 @@
+"url": "https://api.mapbox.com/styles/v1/hemamaps/cjpx65c27073h2smhvkqw0ifb/wmts?access_token=pk.eyJ1IjoiaGVtYW1hcHMiLCJhIjoiY2sxYmtoNGQwMm55aDNicGtkdGVrdDNlcyJ9.JB0u6oexiwzpOVydhY3dsA",
+       "https://api.mapbox.com/styles/v1/hemamaps/cjpx65c27073h2smhvkqw0ifb/tiles/256/{level}/{col}/{row}@2x?access_token=pk.eyJ1IjoiaGVtYW1hcHMiLCJhIjoiY2sxYmtoNGQwMm55aDNicGtkdGVrdDNlcyJ9.JB0u6oexiwzpOVydhY3dsA"
+
+
+
+https://api.mapbox.com/styles/v1/hemamaps/cjpx65c27073h2smhvkqw0ifb/wmts?access_token=pk.eyJ1IjoiaGVtYW1hcHMiLCJhIjoiY2sxYmtoNGQwMm55aDNicGtkdGVrdDNlcyJ9.JB0u6oexiwzpOVydhY3dsA
+
+
+
+pk.eyJ1Ijoibm9ydGhlcm5sYW5kY291bmNpbCIsImEiOiJja2R6YzU1MmMxanh0MnlvZzBrMWF3djJjIn0.8Dusjlh9TRbLJjwe0nQpxw
+
+
+
+
+{
+  "layers": "ckan_225a1af2_9b93_4162_9fe6_11e165255942",
+  "url": "https://data.gov.au/geoserver/nt-local-government-areas-psma-administrative-boundaries/wms",
+  "type": "wms",
+  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)\n\n[nfrip@ga.gov.au](mailto:nfrip@ga.gov.au)",
+  "name": "Local Government Areas NT",
+  "isEnabled": true,
+  "isHidden": false,
+  "isLegendVisible": false,
+  "dataUrlType": "direct",
+  "dataUrl": "http://www.data.gov.au/dataset/nt-local-government-areas-psma-administrative-boundaries",
+  "info": [
+    {
+      "name": "Licence",
+      "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+    }
+  ]
+},
