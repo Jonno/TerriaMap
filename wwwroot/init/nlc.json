@@ -28,7 +28,7 @@
                 "url": "public/kmz/ALTs.kmz",
                 "isEnabled": true,
                 "isHidden": true,
-                "isShown": false,
+                "isShown": true,
                 "isLegendVisible": false,
                 "shortReport": "Boundaries of all Aboriginal Land Trusts managed by the NLC.",
                 "description": "Boundaries of all Aboriginal Land Trusts managed by the NLC.",
@@ -39,7 +39,7 @@
                 "url": "public/kmz/ALRA-Sec7s.kmz",
                 "isEnabled": false,
                 "isHidden": false,
-                "isShown": true,
+                "isShown": false,
                 "isLegendVisible": false,
                 "shortReport": "Shows Towns and boundaries where permits are not required.",
                 "description": "The Towns and boundaries where NLC permits are not required.",
@@ -48,8 +48,9 @@
                 "name": "NLC Ranger Groups",
                 "type": "kml",
                 "url": "public/kmz/RangerGroups.kmz",
-                "isEnabled": false,
+                "isEnabled": true,
                 "isHidden": false,
+                "isShown": false,
                 "isLegendVisible": false,
                 "shortReport": "Operational areas of NLC Ranger Groups.",
                 "description": "Operational areas of NLC Ranger Groups."
@@ -92,6 +93,24 @@
                 "url": "public/kmz/LanguageGroupMap.kmz"
               },
               {
+                "url": "https://www.asris.csiro.au/arcgis/rest/services/abares/tenure_of_australias_forests_2018/MapServer",
+                "type": "esri-mapServer",
+                "dataCustodian": "Australian Bureau of Agricultural and Resource Economics and Sciences",
+                "name": "Forest Tenure",
+                "rectangle": [
+                  106,
+                  -52,
+                  172,
+                  -8
+                ],
+                "info": [
+                  {
+                    "name": "Licence",
+                    "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                  }
+                ]
+              },
+              {
                 "name": "Hema Points Of Interest",
                 "type": "kml",
                 "isLegendVisible": false,
@@ -131,6 +150,7 @@
                 "isEnabled": true,
                 "isHidden": false,
                 "isLegendVisible": false,
+                "isShown": false,
                 "opacity": 1.0,
                 "legendUrl": "http://geo-prototype1.aremi.d61.io/acma/wms?service=WMS&request=GetLegendGraphic&width=20&height=20&layer=acma_sites&format=image%2Fpng&.png",
                 "parameters": {
