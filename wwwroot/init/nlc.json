@@ -193,6 +193,39 @@
                   }
                 ]
               },
+
+              {
+                "url": "https://www.asris.csiro.au/arcgis/rest/services/abares/australias_indigenous_forest_estate_2018/MapServer",
+                "type": "esri-mapServer",
+                "dataCustodian": "Australian Bureau of Agricultural and Resource Economics and Sciences",
+                "name": "Australia’s Indigenous Forest Estate",
+                "isEnabled": true,
+                "isHidden": false,
+                "isLegendVisible": false,
+                "isShown": false,
+                "info": [
+                  {
+                    "name": "Licence",
+                    "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                  }
+                ]
+              },
+              {
+                "url": "http://services.ga.gov.au/gis/rest/services/Land_Cover_WM/MapServer",
+                "type": "esri-mapServer",
+                "dataCustodian": "Geoscience Australia",
+                "name": "Land Cover",
+                "isEnabled": true,
+                "isHidden": false,
+                "isLegendVisible": false,
+                "isShown": false,
+                "info": [
+                  {
+                    "name": "Licence",
+                    "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                  }
+                ]
+              },
               {
                 "url": "http://services.ga.gov.au/gis/rest/services/NM_Reserves/MapServer",
                 "type": "esri-mapServer",
@@ -223,6 +256,62 @@
                 "layers": "ckan_6ebffd6f_a937_4fa6_843a_3fde2effbacd",
                 "dataUrl": "https://data.gov.au/geoserver/forests-of-australia-2018/wms",
                 "dataCustodian": "Firenorth.org.au"
+              },
+              {
+                "name": "NT Alcohol Exclusion Zones",
+                "url": "http://wms1.ntlis.nt.gov.au/ilismap",
+                "type": "wms",
+                "isEnabled": true,
+                "isHidden": false,
+                "isLegendVisible": false,
+                "isShown": false,
+                "opacity": 1.0,
+                "layers": "423",
+                "dataUrl": "http://wms1.ntlis.nt.gov.au/ilismap",
+                "dataCustodian": "NT Department Of Land Information"
+              },
+              {
+                "name": "NT Indigenous Land Use Agreements",
+                "url": "http://wms1.ntlis.nt.gov.au/ilismap",
+                "type": "wms",
+                "isEnabled": true,
+                "isHidden": false,
+                "isLegendVisible": false,
+                "isShown": false,
+                "opacity": 1.0,
+                "layers": "56",
+                "dataUrl": "http://wms1.ntlis.nt.gov.au/ilismap",
+                "dataCustodian": "NT Department Of Land Information"
+              },
+              {
+                "name": "NT Pastoral Leases",
+                "url": "http://wms1.ntlis.nt.gov.au/ilismap",
+                "type": "wms",
+                "isEnabled": true,
+                "isHidden": false,
+                "isLegendVisible": false,
+                "isShown": false,
+                "opacity": 1.0,
+                "layers": "71",
+                "dataUrl": "http://wms1.ntlis.nt.gov.au/ilismap",
+                "dataCustodian": "NT Department Of Land Information"
+              },
+              {
+                "url": "http://www.bom.gov.au/jsp/awra/thredds/wms/AWRACMS/deciles/year/rain_day.nc",
+                "type": "wms",
+                "dataCustodian": "Bureau of Meteorology",
+                "name": "Rainfall, year-to-date",
+                "isEnabled": true,
+                "isHidden": false,
+                "isLegendVisible": false,
+                "isShown": false,
+                "layers": "rain_day",
+                "info": [
+                  {
+                    "name": "Licence",
+                    "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                  }
+                ]
               },
               {
                 "name": "Hema Points Of Interest",
