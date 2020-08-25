@@ -1,6 +1,18 @@
 {
     "corsDomains" : [
-        "firenorth.org.au"
+        "firenorth.org.au",
+        "corsproxy.com",
+        "programs.communications.gov.au",
+        "mapsengine.google.com",
+        "s3-ap-southeast-2.amazonaws.com",
+        "data.melbourne.vic.gov.au",
+        "data.act.gov.au",
+        "dea.ga.gov.au",
+        "gsky.nci.org.au",
+        "discover.data.vic.gov.au",
+        "asris.csiro.au",
+        "services.ga.gov.au",
+        "wms1.ntlis.nt.gov.au"
     ],
     "homeCamera": {
         "west": 128.9,
