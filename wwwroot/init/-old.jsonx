@@ -65,7 +65,7 @@
                 "type": "wms",
                 "isEnabled": true,
                 "isHidden": false,
-                "isLegendVisible": false,
+                "isLegendVisible": true,
                 "isShown": false,
                 "opacity": 1.0,
                 "isGeoserver": true,
@@ -92,6 +92,30 @@
                 "dataCustodian": "Firenorth.org.au"
               },
               {
+                "name": "FireNorth 12h Hotspots",
+                "type": "kml",
+                "url": "public/kmz/hotspots_12h.kml",
+                "isEnabled": false,
+                "isHidden": false,
+                "isShown": true,
+                "isLegendVisible": true,
+                "shortReport": "Recent Hotspots and Firescars from Firenorth.org.au",
+                "description": "Recent Hotspots and Firescars from Firenorth.org.au"
+
+              },
+              {
+                "name": "FireNorth Hotspots",
+                "type": "kml",
+                "url": "public/kmz/recenthotspots_and_firescars.kml",
+                "isEnabled": false,
+                "isHidden": false,
+                "isShown": true,
+                "isLegendVisible": true,
+                "shortReport": "Recent Hotspots and Firescars from Firenorth.org.au",
+                "description": "Recent Hotspots and Firescars from Firenorth.org.au"
+
+              },
+              {
                 "name": "Family Outstations",
                 "type": "kml",
                 "isLegendVisible": false,
@@ -101,8 +125,8 @@
                 "name": "Telstra facilties",
                 "type": "kml",
                 "isEnabled": false,
-                "isHidden": true,
-                "isShown": false,
+                "isHidden": false,
+                "isShown": true,
                 "isLegendVisible": false,
                 "url": "public/kmz/TelstraSites.kml"
               },
@@ -141,10 +165,6 @@
                 "type": "esri-mapServer",
                 "dataCustodian": "Australian Bureau of Agricultural and Resource Economics and Sciences",
                 "name": "Forest Tenure",
-                "isEnabled": true,
-                "isHidden": false,
-                "isLegendVisible": false,
-                "isShown": false,
                 "rectangle": [
                   106,
                   -52,
@@ -157,72 +177,6 @@
                     "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
                   }
                 ]
-              },
-
-              {
-                "url": "https://www.asris.csiro.au/arcgis/rest/services/abares/clum_50m_2018/MapServer",
-                "type": "esri-mapServer",
-                "dataCustodian": "Australian Bureau of Agricultural and Resource Economics and Sciences",
-                "name": "Catchment Scale Land Use 2018 Primary",
-                "isEnabled": true,
-                "isHidden": false,
-                "isLegendVisible": false,
-                "isShown": false,
-                "layers": "1",
-                "info": [
-                  {
-                    "name": "Licence",
-                    "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
-                  }
-                ]
-              },
-              {
-                "url": "https://www.asris.csiro.au/arcgis/rest/services/abares/clum_50m_2018/MapServer",
-                "type": "esri-mapServer",
-                "dataCustodian": "Australian Bureau of Agricultural and Resource Economics and Sciences",
-                "name": "Catchment Scale Land Use 2018 Secondary",
-                "isEnabled": true,
-                "isHidden": false,
-                "isLegendVisible": false,
-                "isShown": false,
-                "layers": "2",
-                "info": [
-                  {
-                    "name": "Licence",
-                    "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
-                  }
-                ]
-              },
-              {
-                "url": "http://services.ga.gov.au/gis/rest/services/NM_Reserves/MapServer",
-                "type": "esri-mapServer",
-                "dataCustodian": "Australian Bureau of Agricultural and Resource Economics and Sciences",
-                "name": "National Parks and Reserves",
-                "isEnabled": true,
-                "isHidden": false,
-                "isLegendVisible": false,
-                "isShown": false,
-                "layers": "Nature_Conservation_Reserves_Land_Labels,Nature_Conservation_Reserves_Land,No_Data",
-                "info": [
-                  {
-                    "name": "Licence",
-                    "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
-                  }
-                ]
-              },
-              {
-                "name": "Forests of Australia",
-                "url": "https://data.gov.au/geoserver/forests-of-australia-2018/wms",
-                "type": "wms",
-                "isEnabled": true,
-                "isHidden": false,
-                "isLegendVisible": false,
-                "isShown": false,
-                "opacity": 1.0,
-                "isGeoserver": true,
-                "layers": "ckan_6ebffd6f_a937_4fa6_843a_3fde2effbacd",
-                "dataUrl": "https://data.gov.au/geoserver/forests-of-australia-2018/wms",
-                "dataCustodian": "Firenorth.org.au"
               },
               {
                 "name": "Hema Points Of Interest",
@@ -277,8 +231,7 @@
                   "name": "{{#LICENCE_NO}}Licence: {{{LICENSEE}}}, {{PRETTY_FREQ}}{{/LICENCE_NO}}{{^LICENCE_NO}}Site: {{{SITE_NAME}}}{{/LICENCE_NO}}"
                 },
                 "dataCustodian": "[Australian Communications and Media Authority](http://www.acma.gov.au/)"
-              },
-
+              }
             ]
         }
     ],
