@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+
+<Folder>
+  <name>NAFI Current hotspots and fire scars</name>
+  <description><![CDATA[Recent (last 3 days) hotpots and current year MODIS (250m) fire scars colour coded by month burnt as displayed on the NAFI website (www.firenorth.org.au).]]></description>
+  <open>1</open>
+   <LookAt>
+    <longitude>133.882373</longitude>
+    <latitude>-23.75868</latitude>
+    <range>6000000.0</range>
+    <tilt>0.0</tilt>
+    <heading>0.0</heading>
+   </LookAt>
+
+<Folder>
+<name>Hotspots</name>
+  <NetworkLink>
+    <name>6hrs</name>
+    <visibility>1</visibility>
+   <Link id="">
+    <href>http://firenorth.org.au/nafi2/downloads/kmz/6hrs.kmz</href>
+    <refreshMode>onChange</refreshMode>
+    <viewRefreshMode>onStop</viewRefreshMode>
+    <viewRefreshTime>2</viewRefreshTime> 
+   </Link>
+  </NetworkLink>
+
+  <NetworkLink>
+    <name>12hrs</name>
+    <visibility>1</visibility>
+   <Link id="">
+    <href>http://firenorth.org.au/nafi2/downloads/kmz/12hrs.kmz</href>
+    <refreshMode>onChange</refreshMode>
+    <viewRefreshMode>onStop</viewRefreshMode>
+    <viewRefreshTime>2</viewRefreshTime> 
+   </Link>
+  </NetworkLink>
+
+  <NetworkLink>
+    <name>24hrs</name>
+    <visibility>1</visibility>
+   <Link id="">
+    <href>http://firenorth.org.au/nafi2/downloads/kmz/24hrs.kmz</href>
+    <refreshMode>onChange</refreshMode>
+    <viewRefreshMode>onStop</viewRefreshMode>
+    <viewRefreshTime>2</viewRefreshTime> 
+   </Link>
+  </NetworkLink>
+
+  <NetworkLink>
+    <name>1-2 Days</name>
+    <visibility>1</visibility>
+   <Link id="">
+    <href>http://firenorth.org.au/nafi2/downloads/kmz/48hrs.kmz</href>
+    <refreshMode>onChange</refreshMode>
+    <viewRefreshMode>onStop</viewRefreshMode>
+    <viewRefreshTime>2</viewRefreshTime> 
+   </Link>
+  </NetworkLink>
+
+  <NetworkLink>
+    <name>2-3 Days</name>
+    <visibility>1</visibility>
+   <Link id="">
+    <href>http://firenorth.org.au/nafi2/downloads/kmz/72hrs.kmz</href>
+    <refreshMode>onChange</refreshMode>
+    <viewRefreshMode>onStop</viewRefreshMode>
+    <viewRefreshTime>2</viewRefreshTime> 
+   </Link>
+  </NetworkLink>
+
+  <ScreenOverlay>
+        <name>Hotspots Legend</name>
+        <description>
+        Map will update after panning stops for 2 seconds.
+        </description>
+        <color>f0ffffff</color>
+        <Icon>
+            <href>http://firenorth.org.au/nafi2/images/Hotspotlegend2012new.png</href>
+        </Icon>
+        <overlayXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+        <screenXY x="0.01" y="0.99" xunits="fraction" yunits="fraction"/>
+        <rotationXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+        <size x="0" y="0" xunits="pixels" yunits="pixels"/>
+    </ScreenOverlay>
+</Folder>
+
+<Folder>
+<name>Current Firescars</name>
+<NetworkLink>
+      <name>Current Firescars</name>
+      <Url>
+        <href>http://firenorth.org.au/nafi2/kmllayers?layer=FSCURRENT_G</href>
+        <viewRefreshMode>onStop</viewRefreshMode>
+        <viewRefreshTime>2</viewRefreshTime>
+      </Url>
+  </NetworkLink>
+
+  <ScreenOverlay>
+        <name>Current Firescars Legend</name>
+        <visibility>1</visibility>
+        <description>
+        Map will update after panning stops for 2 seconds.
+        </description>
+        <color>f0ffffff</color>
+        <Icon>
+            <href>http://firenorth.org.au/nafi2/images/Currentscarlegend.png</href>
+        </Icon>
+        <overlayXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+        <screenXY x="0.01" y="0.79" xunits="fraction" yunits="fraction"/>
+        <rotationXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+        <size x="0" y="0" xunits="pixels" yunits="pixels"/>
+    </ScreenOverlay>
+</Folder>
+
+</Folder> 
+
+
+</kml>
