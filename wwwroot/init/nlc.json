@@ -270,23 +270,6 @@
                 "dataCustodian": "Firenorth.org.au"
               },
               {
-                "url": "http://www.bom.gov.au/jsp/awra/thredds/wms/AWRACMS/deciles/year/rain_day.nc",
-                "type": "wms",
-                "dataCustodian": "Bureau of Meteorology",
-                "name": "Rainfall, year-to-date",
-                "isEnabled": true,
-                "isHidden": false,
-                "isLegendVisible": false,
-                "isShown": false,
-                "layers": "rain_day",
-                "info": [
-                  {
-                    "name": "Licence",
-                    "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
-                  }
-                ]
-              },
-              {
                 "name": "Hema Points Of Interest",
                 "type": "kml",
                 "isLegendVisible": false,
@@ -318,7 +301,7 @@
                 "isHidden": false,
                 "isLegendVisible": false,
                 "isShown": false,
-                "opacity": 1.0,
+                "opacity": 0.5,
                 "layers": "0",
                 "dataUrl": "http://wms1.ntlis.nt.gov.au/ilismap",
                 "dataCustodian": "NT Department Of Land Information"
@@ -331,7 +314,7 @@
                 "isHidden": false,
                 "isLegendVisible": false,
                 "isShown": false,
-                "opacity": 1.0,
+                "opacity": 0.5,
                 "layers": "8",
                 "dataUrl": "http://wms1.ntlis.nt.gov.au/ilismap",
                 "dataCustodian": "NT Department Of Land Information"
@@ -357,7 +340,7 @@
                 "isHidden": false,
                 "isLegendVisible": false,
                 "isShown": false,
-                "opacity": 1.0,
+                "opacity": 0.8,
                 "layers": "13",
                 "dataUrl": "http://wms1.ntlis.nt.gov.au/ilismap",
                 "dataCustodian": "NT Department Of Land Information"
@@ -370,7 +353,7 @@
                 "isHidden": false,
                 "isLegendVisible": false,
                 "isShown": false,
-                "opacity": 1.0,
+                "opacity": 0.7,
                 "layers": "3",
                 "dataUrl": "http://wms1.ntlis.nt.gov.au/ilismap",
                 "dataCustodian": "NT Department Of Land Information"
@@ -396,7 +379,7 @@
                 "isHidden": false,
                 "isLegendVisible": false,
                 "isShown": true,
-                "opacity": 1.0,
+                "opacity": 0.8,
                 "layers": "423",
                 "dataUrl": "http://wms1.ntlis.nt.gov.au/ilismap",
                 "dataCustodian": "NT Department Of Land Information"
