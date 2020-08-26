@@ -169,6 +169,21 @@
                 "dataUrl": "http://wms1.ntlis.nt.gov.au/ilismap",
                 "dataCustodian": "NT Department Of Land Information"
               },
+
+              {
+                "name": "Forests of Australia",
+                "url": "https://data.gov.au/geoserver/forests-of-australia-2018/wms",
+                "type": "wms",
+                "isEnabled": true,
+                "isHidden": false,
+                "isLegendVisible": false,
+                "isShown": false,
+                "opacity": 1.0,
+                "isGeoserver": true,
+                "layers": "ckan_6ebffd6f_a937_4fa6_843a_3fde2effbacd",
+                "dataUrl": "https://data.gov.au/geoserver/forests-of-australia-2018/wms",
+                "dataCustodian": "Firenorth.org.au"
+              },
               {
                 "name": "Police Stations",
                 "type": "kml",
