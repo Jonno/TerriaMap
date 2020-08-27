@@ -11,7 +11,9 @@
             "name": "Northern Territory Government",
             "type": "group",
             "isPromoted": true,
-            "isOpen": true,
+            "description": "![NTG Logo](https://nt.gov.au/__data/assets/file/0011/578450/ntg-bp-logo-lockup-mono.svg)\n\nCurated set of layers relevant to the all stakeholders of the Northern Land Council.",
+
+            "isOpen": false,
             "items": [
               {
                 "name": "NT Cadastre",
@@ -30,7 +32,7 @@
                 "name": "NT Cadastre Proposed",
                 "url": "http://wms1.ntlis.nt.gov.au/ilismap",
                 "type": "wms",
-                "isEnabled": true,
+                "isEnabled": false,
                 "isHidden": false,
                 "isLegendVisible": false,
                 "isShown": false,
@@ -43,7 +45,7 @@
                 "name": "NT Cadastre with Owners",
                 "url": "http://wms1.ntlis.nt.gov.au/ilismap",
                 "type": "wms",
-                "isEnabled": true,
+                "isEnabled": false,
                 "isHidden": false,
                 "isLegendVisible": false,
                 "isShown": false,
@@ -56,7 +58,7 @@
                 "name": "NT Hundreds",
                 "url": "http://wms1.ntlis.nt.gov.au/ilismap",
                 "type": "wms",
-                "isEnabled": true,
+                "isEnabled": false,
                 "isHidden": false,
                 "isLegendVisible": false,
                 "isShown": false,
@@ -69,7 +71,7 @@
                 "name": "NT Land Tenure Type",
                 "url": "http://wms1.ntlis.nt.gov.au/ilismap",
                 "type": "wms",
-                "isEnabled": true,
+                "isEnabled": false,
                 "isHidden": false,
                 "isLegendVisible": false,
                 "isShown": false,
@@ -82,7 +84,7 @@
                 "name": "NT Localities",
                 "url": "http://wms1.ntlis.nt.gov.au/ilismap",
                 "type": "wms",
-                "isEnabled": true,
+                "isEnabled": false,
                 "isHidden": false,
                 "isLegendVisible": false,
                 "isShown": false,
@@ -98,7 +100,7 @@
                 "isEnabled": true,
                 "isHidden": false,
                 "isLegendVisible": false,
-                "isShown": true,
+                "isShown": false,
                 "opacity": 1.0,
                 "layers": "423",
                 "dataUrl": "http://wms1.ntlis.nt.gov.au/ilismap",
@@ -108,7 +110,7 @@
                 "name": "NT Indigenous Land Use Agreements",
                 "url": "http://wms1.ntlis.nt.gov.au/ilismap",
                 "type": "wms",
-                "isEnabled": true,
+                "isEnabled": false,
                 "isHidden": false,
                 "isLegendVisible": false,
                 "isShown": false,
@@ -121,7 +123,7 @@
                 "name": "Topographic Maps 2500",
                 "url": "http://wms1.ntlis.nt.gov.au/ilismap",
                 "type": "wms",
-                "isEnabled": true,
+                "isEnabled": false,
                 "isHidden": false,
                 "isLegendVisible": false,
                 "isShown": false,
@@ -134,7 +136,7 @@
                 "name": "Topographic Maps 25000",
                 "url": "http://wms1.ntlis.nt.gov.au/ilismap",
                 "type": "wms",
-                "isEnabled": true,
+                "isEnabled": false,
                 "isHidden": false,
                 "isLegendVisible": false,
                 "isShown": false,
@@ -147,7 +149,7 @@
                 "name": "NT Pastoral Leases",
                 "url": "http://wms1.ntlis.nt.gov.au/ilismap",
                 "type": "wms",
-                "isEnabled": true,
+                "isEnabled": false,
                 "isHidden": false,
                 "isLegendVisible": false,
                 "isShown": false,
@@ -160,7 +162,7 @@
                 "name": "NT Native Title Registry",
                 "url": "http://wms1.ntlis.nt.gov.au/ilismap",
                 "type": "wms",
-                "isEnabled": true,
+                "isEnabled": false,
                 "isHidden": false,
                 "isLegendVisible": false,
                 "isShown": false,
@@ -168,21 +170,6 @@
                 "layers": "59",
                 "dataUrl": "http://wms1.ntlis.nt.gov.au/ilismap",
                 "dataCustodian": "NT Department Of Land Information"
-              },
-
-              {
-                "name": "Forests of Australia",
-                "url": "https://data.gov.au/geoserver/forests-of-australia-2018/wms",
-                "type": "wms",
-                "isEnabled": true,
-                "isHidden": false,
-                "isLegendVisible": false,
-                "isShown": false,
-                "opacity": 1.0,
-                "isGeoserver": true,
-                "layers": "ckan_6ebffd6f_a937_4fa6_843a_3fde2effbacd",
-                "dataUrl": "https://data.gov.au/geoserver/forests-of-australia-2018/wms",
-                "dataCustodian": "Firenorth.org.au"
               },
               {
                 "name": "Police Stations",
@@ -195,11 +182,6 @@
                 "url": "public/kmz/RoadsControlledbyNTG.kmz"
               }
             ]
-        },
-        {
-            "name": "National Data Sets",
-            "type": "group",
-            "isOpen": false
         }
     ]
 }

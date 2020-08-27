@@ -2,7 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>NLCBoundary.kml</name>
-	<Style id="s_ylw-pushpin_hl">
+	<Style id="s_ylw-pushpin_hl7">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -11,14 +11,14 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 		<LineStyle>
-			<color>ff0000ff</color>
+			<color>fffa5900</color>
 			<width>2.6</width>
 		</LineStyle>
 		<PolyStyle>
-			<color>668f92ff</color>
+			<color>33f3f182</color>
 		</PolyStyle>
 	</Style>
-	<Style id="s_ylw-pushpin">
+	<Style id="s_ylw-pushpin6">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -27,27 +27,27 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 		<LineStyle>
-			<color>ff0000ff</color>
+			<color>fffa5900</color>
 			<width>2.6</width>
 		</LineStyle>
 		<PolyStyle>
-			<color>668f92ff</color>
+			<color>33f3f182</color>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="m_ylw-pushpin">
+	<StyleMap id="m_ylw-pushpin9">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin</styleUrl>
+			<styleUrl>#s_ylw-pushpin6</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+			<styleUrl>#s_ylw-pushpin_hl7</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Placemark>
 		<name>NLCBoundary</name>
-		<description>Boundary of all NLC Permit Regions</description>
-		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<description>Complete Bounday of NLC regions</description>
+		<styleUrl>#m_ylw-pushpin9</styleUrl>
 		<Polygon>
 			<tessellate>1</tessellate>
 			<outerBoundaryIs>

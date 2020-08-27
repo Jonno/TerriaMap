@@ -3,7 +3,7 @@
 <Document>
 	<name>Places-MajorandMinor</name>
 	<description>Dated - -191013</description>
-	<Schema name="Places-MajorandMinor-191013" id="S_Places_MajorandMinor_191013_SSSSSDD">
+	<Schema name="Places-MajorandMinor" id="S_Places_MajorandMinor_SSSSSDD">
 		<SimpleField type="string" name="NAME"><displayName>&lt;b&gt;NAME&lt;/b&gt;</displayName>
 </SimpleField>
 		<SimpleField type="string" name="TYPE"><displayName>&lt;b&gt;TYPE&lt;/b&gt;</displayName>
@@ -42,13 +42,13 @@
 		</LabelStyle>
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
-  <tr><td><b>NAME</b></td><td>$[Places-MajorandMinor-191013/NAME]</td></tr>
-  <tr><td><b>TYPE</b></td><td>$[Places-MajorandMinor-191013/TYPE]</td></tr>
-  <tr><td><b>ALT</b></td><td>$[Places-MajorandMinor-191013/ALT]</td></tr>
-  <tr><td><b>NLC Region</b></td><td>$[Places-MajorandMinor-191013/NLC_Region]</td></tr>
-  <tr><td><b>LGA</b></td><td>$[Places-MajorandMinor-191013/LGA]</td></tr>
-  <tr><td><b>LONGITUDE</b></td><td>$[Places-MajorandMinor-191013/LONGITUDE]</td></tr>
-  <tr><td><b>LATITUDE</b></td><td>$[Places-MajorandMinor-191013/LATITUDE]</td></tr>
+  <tr><td><b>NAME</b></td><td>$[Places-MajorandMinor/NAME]</td></tr>
+  <tr><td><b>TYPE</b></td><td>$[Places-MajorandMinor/TYPE]</td></tr>
+  <tr><td><b>ALT</b></td><td>$[Places-MajorandMinor/ALT]</td></tr>
+  <tr><td><b>NLC Region</b></td><td>$[Places-MajorandMinor/NLC_Region]</td></tr>
+  <tr><td><b>LGA</b></td><td>$[Places-MajorandMinor/LGA]</td></tr>
+  <tr><td><b>LONGITUDE</b></td><td>$[Places-MajorandMinor/LONGITUDE]</td></tr>
+  <tr><td><b>LATITUDE</b></td><td>$[Places-MajorandMinor/LATITUDE]</td></tr>
 </table>]]></text>
 		</BalloonStyle>
 	</Style>
@@ -65,13 +65,13 @@
 		</LabelStyle>
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
-  <tr><td><b>NAME</b></td><td>$[Places-MajorandMinor-191013/NAME]</td></tr>
-  <tr><td><b>TYPE</b></td><td>$[Places-MajorandMinor-191013/TYPE]</td></tr>
-  <tr><td><b>ALT</b></td><td>$[Places-MajorandMinor-191013/ALT]</td></tr>
-  <tr><td><b>NLC Region</b></td><td>$[Places-MajorandMinor-191013/NLC_Region]</td></tr>
-  <tr><td><b>LGA</b></td><td>$[Places-MajorandMinor-191013/LGA]</td></tr>
-  <tr><td><b>LONGITUDE</b></td><td>$[Places-MajorandMinor-191013/LONGITUDE]</td></tr>
-  <tr><td><b>LATITUDE</b></td><td>$[Places-MajorandMinor-191013/LATITUDE]</td></tr>
+  <tr><td><b>NAME</b></td><td>$[Places-MajorandMinor/NAME]</td></tr>
+  <tr><td><b>TYPE</b></td><td>$[Places-MajorandMinor/TYPE]</td></tr>
+  <tr><td><b>ALT</b></td><td>$[Places-MajorandMinor/ALT]</td></tr>
+  <tr><td><b>NLC Region</b></td><td>$[Places-MajorandMinor/NLC_Region]</td></tr>
+  <tr><td><b>LGA</b></td><td>$[Places-MajorandMinor/LGA]</td></tr>
+  <tr><td><b>LONGITUDE</b></td><td>$[Places-MajorandMinor/LONGITUDE]</td></tr>
+  <tr><td><b>LATITUDE</b></td><td>$[Places-MajorandMinor/LATITUDE]</td></tr>
 </table>]]></text>
 		</BalloonStyle>
 	</Style>
@@ -82,7 +82,7 @@
 			<name>Amanbidji or &quot;Amanbidji or &quot;Amanbidgee Station&quot;Amanbidji or &quot;&quot;Amanbidgee Station&quot;;&quot;Amanbidji or &quot;&quot;Amanbidgee Station&quot;&quot;;&quot;Kildurk&quot;Amanbidji or &quot;&quot;Amanbidgee Station&quot;&quot;;&quot;&quot;Kildurk&quot;;&quot;Amanbidji or &quot;&quot;Amanbidgee Station&quot;&quot;;&quot;&quot;Kildurk&quot;&quot;;&quot;Mialuni&quot;Amanbidji or &quot;&quot;Amanbidgee Station&quot;&quot;;&quot;&quot;Kildurk&quot;&quot;;&quot;&quot;Mialuni&quot;</name>
 			<styleUrl>#pointStyleMap100</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Places_MajorandMinor_191013_SSSSSDD">
+				<SchemaData schemaUrl="#S_Places_MajorandMinor_SSSSSDD">
 					<SimpleData name="NAME">Amanbidji or &quot;Amanbidji or &quot;Amanbidgee Station&quot;Amanbidji or &quot;&quot;Amanbidgee Station&quot;;&quot;Amanbidji or &quot;&quot;Amanbidgee Station&quot;&quot;;&quot;Kildurk&quot;Amanbidji or &quot;&quot;Amanbidgee Station&quot;&quot;;&quot;&quot;Kildurk&quot;;&quot;Amanbidji or &quot;&quot;Amanbidgee Station&quot;&quot;;&quot;&quot;Kildurk&quot;&quot;;&quot;Mialuni&quot;Amanbidji or &quot;&quot;Amanbidgee Station&quot;&quot;;&quot;&quot;Kildurk&quot;&quot;;&quot;&quot;Mialuni&quot;</SimpleData>
 					<SimpleData name="TYPE">Major</SimpleData>
 					<SimpleData name="ALT">NAGURUNGURU ABORIGINAL LAND TRUST</SimpleData>
@@ -100,7 +100,7 @@
 			<name>Baniyala or &quot;Baniyala or &quot;Banyala&quot;Baniyala or &quot;&quot;Banyala&quot;;&quot;Baniyala or &quot;&quot;Banyala&quot;&quot;;&quot;Yilpara&quot;Baniyala or &quot;&quot;Banyala&quot;&quot;;&quot;&quot;Yilpara&quot;</name>
 			<styleUrl>#pointStyleMap100</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Places_MajorandMinor_191013_SSSSSDD">
+				<SchemaData schemaUrl="#S_Places_MajorandMinor_SSSSSDD">
 					<SimpleData name="NAME">Baniyala or &quot;Baniyala or &quot;Banyala&quot;Baniyala or &quot;&quot;Banyala&quot;;&quot;Baniyala or &quot;&quot;Banyala&quot;&quot;;&quot;Yilpara&quot;Baniyala or &quot;&quot;Banyala&quot;&quot;;&quot;&quot;Yilpara&quot;</SimpleData>
 					<SimpleData name="TYPE">Minor</SimpleData>
 					<SimpleData name="ALT">ARNHEM LAND ABORIGINAL LAND TRUST</SimpleData>
@@ -118,7 +118,7 @@
 			<name>Barunga or &quot;Barunga or &quot;Bamyili&quot;Barunga or &quot;&quot;Bamyili&quot;</name>
 			<styleUrl>#pointStyleMap100</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Places_MajorandMinor_191013_SSSSSDD">
+				<SchemaData schemaUrl="#S_Places_MajorandMinor_SSSSSDD">
 					<SimpleData name="NAME">Barunga or &quot;Barunga or &quot;Bamyili&quot;Barunga or &quot;&quot;Bamyili&quot;</SimpleData>
 					<SimpleData name="TYPE">Major</SimpleData>
 					<SimpleData name="ALT">BESWICK ABORIGINAL LAND TRUST</SimpleData>
@@ -136,7 +136,7 @@
 			<name>Beswick or &quot;Beswick or &quot;Wugularr&quot;Beswick or &quot;&quot;Wugularr&quot;</name>
 			<styleUrl>#pointStyleMap100</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Places_MajorandMinor_191013_SSSSSDD">
+				<SchemaData schemaUrl="#S_Places_MajorandMinor_SSSSSDD">
 					<SimpleData name="NAME">Beswick or &quot;Beswick or &quot;Wugularr&quot;Beswick or &quot;&quot;Wugularr&quot;</SimpleData>
 					<SimpleData name="TYPE">Major</SimpleData>
 					<SimpleData name="ALT">BESWICK ABORIGINAL LAND TRUST</SimpleData>
@@ -154,7 +154,7 @@
 			<name>Binjari or &quot;Binjari or &quot;Binjarri&quot;Binjari or &quot;&quot;Binjarri&quot;;&quot;Binjari or &quot;&quot;Binjarri&quot;&quot;;&quot;Wylunba&quot;Binjari or &quot;&quot;Binjarri&quot;&quot;;&quot;&quot;Wylunba&quot;</name>
 			<styleUrl>#pointStyleMap100</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Places_MajorandMinor_191013_SSSSSDD">
+				<SchemaData schemaUrl="#S_Places_MajorandMinor_SSSSSDD">
 					<SimpleData name="NAME">Binjari or &quot;Binjari or &quot;Binjarri&quot;Binjari or &quot;&quot;Binjarri&quot;;&quot;Binjari or &quot;&quot;Binjarri&quot;&quot;;&quot;Wylunba&quot;Binjari or &quot;&quot;Binjarri&quot;&quot;;&quot;&quot;Wylunba&quot;</SimpleData>
 					<SimpleData name="TYPE">Minor</SimpleData>
 					<SimpleData name="ALT">0</SimpleData>
@@ -172,7 +172,7 @@
 			<name>Birany Birany or &quot;Birany Birany or &quot;Biranybirany&quot;Birany Birany or &quot;&quot;Biranybirany&quot;</name>
 			<styleUrl>#pointStyleMap100</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Places_MajorandMinor_191013_SSSSSDD">
+				<SchemaData schemaUrl="#S_Places_MajorandMinor_SSSSSDD">
 					<SimpleData name="NAME">Birany Birany or &quot;Birany Birany or &quot;Biranybirany&quot;Birany Birany or &quot;&quot;Biranybirany&quot;</SimpleData>
 					<SimpleData name="TYPE">Minor</SimpleData>
 					<SimpleData name="ALT">ARNHEM LAND ABORIGINAL LAND TRUST</SimpleData>
@@ -190,7 +190,7 @@
 			<name>Bulla or &quot;Bulla or &quot;Gudabijin&quot;Bulla or &quot;&quot;Gudabijin&quot;;&quot;Bulla or &quot;&quot;Gudabijin&quot;&quot;;&quot;Gurrbijim&quot;Bulla or &quot;&quot;Gudabijin&quot;&quot;;&quot;&quot;Gurrbijim&quot;</name>
 			<styleUrl>#pointStyleMap100</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Places_MajorandMinor_191013_SSSSSDD">
+				<SchemaData schemaUrl="#S_Places_MajorandMinor_SSSSSDD">
 					<SimpleData name="NAME">Bulla or &quot;Bulla or &quot;Gudabijin&quot;Bulla or &quot;&quot;Gudabijin&quot;;&quot;Bulla or &quot;&quot;Gudabijin&quot;&quot;;&quot;Gurrbijim&quot;Bulla or &quot;&quot;Gudabijin&quot;&quot;;&quot;&quot;Gurrbijim&quot;</SimpleData>
 					<SimpleData name="TYPE">Minor</SimpleData>
 					<SimpleData name="ALT">0</SimpleData>
@@ -208,7 +208,7 @@
 			<name>Bulman or &quot;Bulman or &quot;Gulin Gulin&quot;Bulman or &quot;&quot;Gulin Gulin&quot;;&quot;Bulman or &quot;&quot;Gulin Gulin&quot;&quot;;&quot;Yulngu&quot;Bulman or &quot;&quot;Gulin Gulin&quot;&quot;;&quot;&quot;Yulngu&quot;</name>
 			<styleUrl>#pointStyleMap100</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Places_MajorandMinor_191013_SSSSSDD">
+				<SchemaData schemaUrl="#S_Places_MajorandMinor_SSSSSDD">
 					<SimpleData name="NAME">Bulman or &quot;Bulman or &quot;Gulin Gulin&quot;Bulman or &quot;&quot;Gulin Gulin&quot;;&quot;Bulman or &quot;&quot;Gulin Gulin&quot;&quot;;&quot;Yulngu&quot;Bulman or &quot;&quot;Gulin Gulin&quot;&quot;;&quot;&quot;Yulngu&quot;</SimpleData>
 					<SimpleData name="TYPE">Major</SimpleData>
 					<SimpleData name="ALT">ARNHEM LAND ABORIGINAL LAND TRUST</SimpleData>
@@ -226,7 +226,7 @@
 			<name>Dhalinybuy or &quot;Dhalinybuy or &quot;Dhalingboy&quot;Dhalinybuy or &quot;&quot;Dhalingboy&quot;</name>
 			<styleUrl>#pointStyleMap100</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Places_MajorandMinor_191013_SSSSSDD">
+				<SchemaData schemaUrl="#S_Places_MajorandMinor_SSSSSDD">
 					<SimpleData name="NAME">Dhalinybuy or &quot;Dhalinybuy or &quot;Dhalingboy&quot;Dhalinybuy or &quot;&quot;Dhalingboy&quot;</SimpleData>
 					<SimpleData name="TYPE">Minor</SimpleData>
 					<SimpleData name="ALT">ARNHEM LAND ABORIGINAL LAND TRUST</SimpleData>
@@ -244,7 +244,7 @@
 			<name>Gan Gan or &quot;Gan Gan or &quot;Gangan&quot;Gan Gan or &quot;&quot;Gangan&quot;</name>
 			<styleUrl>#pointStyleMap100</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Places_MajorandMinor_191013_SSSSSDD">
+				<SchemaData schemaUrl="#S_Places_MajorandMinor_SSSSSDD">
 					<SimpleData name="NAME">Gan Gan or &quot;Gan Gan or &quot;Gangan&quot;Gan Gan or &quot;&quot;Gangan&quot;</SimpleData>
 					<SimpleData name="TYPE">Minor</SimpleData>
 					<SimpleData name="ALT">ARNHEM LAND ABORIGINAL LAND TRUST</SimpleData>
@@ -262,7 +262,7 @@
 			<name>Gapuwiyak or &quot;Gapuwiyak or &quot;Lake Evella&quot;Gapuwiyak or &quot;&quot;Lake Evella&quot;</name>
 			<styleUrl>#pointStyleMap100</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Places_MajorandMinor_191013_SSSSSDD">
+				<SchemaData schemaUrl="#S_Places_MajorandMinor_SSSSSDD">
 					<SimpleData name="NAME">Gapuwiyak or &quot;Gapuwiyak or &quot;Lake Evella&quot;Gapuwiyak or &quot;&quot;Lake Evella&quot;</SimpleData>
 					<SimpleData name="TYPE">Major</SimpleData>
 					<SimpleData name="ALT">ARNHEM LAND ABORIGINAL LAND TRUST</SimpleData>
@@ -280,7 +280,7 @@
 			<name>Gochan Jiny Jirra or &quot;Gochan Jiny Jirra or &quot;Cadell Gunardpa&quot;Gochan Jiny Jirra or &quot;&quot;Cadell Gunardpa&quot;;&quot;Gochan Jiny Jirra or &quot;&quot;Cadell Gunardpa&quot;&quot;;&quot;Gochan Jiny-Jirra&quot;Gochan Jiny Jirra or &quot;&quot;Cadell Gunardpa&quot;&quot;;&quot;&quot;Gochan Jiny-Jirra&quot;;&quot;Gochan Jiny Jirra or &quot;&quot;Cadell Gunardpa&quot;&quot;;&quot;&quot;Gochan Jiny-Jirra&quot;&quot;;&quot;Gochin Jiny Jard&quot;Gochan Jiny Jirra or &quot;&quot;Cadell Gunardpa&quot;&quot;;&quot;&quot;Gochan Jiny-Jirra&quot;&quot;;&quot;&quot;Gochin Jiny Jard&quot;;&quot;Gochan Jiny Jirra or &quot;&quot;Cadell Gunardpa&quot;&quot;;&quot;&quot;Gochan Jiny-Jirra&quot;&quot;;&quot;&quot;Gochin Jiny Jard&quot;&quot;;&quot;Gochin Jiny Jirra&quot;Gochan Jiny Jirra or &quot;&quot;Cadell Gunardpa&quot;&quot;;&quot;&quot;Gochan Jiny-Jirra&quot;&quot;;&quot;&quot;Gochin Jiny Jard&quot;&quot;;&quot;&quot;Gochin Jiny Jirra&quot;;&quot;Gochan Jiny Jirra or &quot;&quot;Cadell Gunardpa&quot;&quot;;&quot;&quot;Gochan Jiny-Jirra&quot;&quot;;&quot;&quot;Gochin Jiny Jard&quot;&quot;;&quot;&quot;Gochin Jiny Jirra&quot;&quot;;&quot;Gotjanjinjirra&quot;Gochan Jiny Jirra or &quot;&quot;Cadell Gunardpa&quot;&quot;;&quot;&quot;Gochan Jiny-Jirra&quot;&quot;;&quot;&quot;Gochin Jiny Jard&quot;&quot;;&quot;&quot;Gochin Jiny Jirra&quot;&quot;;&quot;&quot;Gotjanjinjirra&quot;</name>
 			<styleUrl>#pointStyleMap100</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Places_MajorandMinor_191013_SSSSSDD">
+				<SchemaData schemaUrl="#S_Places_MajorandMinor_SSSSSDD">
 					<SimpleData name="NAME">Gochan Jiny Jirra or &quot;Gochan Jiny Jirra or &quot;Cadell Gunardpa&quot;Gochan Jiny Jirra or &quot;&quot;Cadell Gunardpa&quot;;&quot;Gochan Jiny Jirra or &quot;&quot;Cadell Gunardpa&quot;&quot;;&quot;Gochan Jiny-Jirra&quot;Gochan Jiny Jirra or &quot;&quot;Cadell Gunardpa&quot;&quot;;&quot;&quot;Gochan Jiny-Jirra&quot;;&quot;Gochan Jiny Jirra or &quot;&quot;Cadell Gunardpa&quot;&quot;;&quot;&quot;Gochan Jiny-Jirra&quot;&quot;;&quot;Gochin Jiny Jard&quot;Gochan Jiny Jirra or &quot;&quot;Cadell Gunardpa&quot;&quot;;&quot;&quot;Gochan Jiny-Jirra&quot;&quot;;&quot;&quot;Gochin Jiny Jard&quot;;&quot;Gochan Jiny Jirra or &quot;&quot;Cadell Gunardpa&quot;&quot;;&quot;&quot;Gochan Jiny-Jirra&quot;&quot;;&quot;&quot;Gochin Jiny Jard&quot;&quot;;&quot;Gochin Jiny Jirra&quot;Gochan Jiny Jirra or &quot;&quot;Cadell Gunardpa&quot;&quot;;&quot;&quot;Gochan Jiny-Jirra&quot;&quot;;&quot;&quot;Gochin Jiny Jard&quot;&quot;;&quot;&quot;Gochin Jiny Jirra&quot;;&quot;Gochan Jiny Jirra or &quot;&quot;Cadell Gunardpa&quot;&quot;;&quot;&quot;Gochan Jiny-Jirra&quot;&quot;;&quot;&quot;Gochin Jiny Jard&quot;&quot;;&quot;&quot;Gochin Jiny Jirra&quot;&quot;;&quot;Gotjanjinjirra&quot;Gochan Jiny Jirra or &quot;&quot;Cadell Gunardpa&quot;&quot;;&quot;&quot;Gochan Jiny-Jirra&quot;&quot;;&quot;&quot;Gochin Jiny Jard&quot;&quot;;&quot;&quot;Gochin Jiny Jirra&quot;&quot;;&quot;&quot;Gotjanjinjirra&quot;</SimpleData>
 					<SimpleData name="TYPE">Minor</SimpleData>
 					<SimpleData name="ALT">ARNHEM LAND ABORIGINAL LAND TRUST</SimpleData>
@@ -298,7 +298,7 @@
 			<name>Gunyangara or &quot;Gunyangara or &quot;Drimmie Head&quot;Gunyangara or &quot;&quot;Drimmie Head&quot;;&quot;Gunyangara or &quot;&quot;Drimmie Head&quot;&quot;;&quot;Marngarr&quot;Gunyangara or &quot;&quot;Drimmie Head&quot;&quot;;&quot;&quot;Marngarr&quot;;&quot;Gunyangara or &quot;&quot;Drimmie Head&quot;&quot;;&quot;&quot;Marngarr&quot;&quot;;&quot;Ski Beach&quot;Gunyangara or &quot;&quot;Drimmie Head&quot;&quot;;&quot;&quot;Marngarr&quot;&quot;;&quot;&quot;Ski Beach&quot;</name>
 			<styleUrl>#pointStyleMap100</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Places_MajorandMinor_191013_SSSSSDD">
+				<SchemaData schemaUrl="#S_Places_MajorandMinor_SSSSSDD">
 					<SimpleData name="NAME">Gunyangara or &quot;Gunyangara or &quot;Drimmie Head&quot;Gunyangara or &quot;&quot;Drimmie Head&quot;;&quot;Gunyangara or &quot;&quot;Drimmie Head&quot;&quot;;&quot;Marngarr&quot;Gunyangara or &quot;&quot;Drimmie Head&quot;&quot;;&quot;&quot;Marngarr&quot;;&quot;Gunyangara or &quot;&quot;Drimmie Head&quot;&quot;;&quot;&quot;Marngarr&quot;&quot;;&quot;Ski Beach&quot;Gunyangara or &quot;&quot;Drimmie Head&quot;&quot;;&quot;&quot;Marngarr&quot;&quot;;&quot;&quot;Ski Beach&quot;</SimpleData>
 					<SimpleData name="TYPE">Minor</SimpleData>
 					<SimpleData name="ALT">ARNHEM LAND ABORIGINAL LAND TRUST</SimpleData>
@@ -316,7 +316,7 @@
 			<name>Gurrumuru or &quot;Gurrumuru or &quot;Gurrumurru&quot;Gurrumuru or &quot;&quot;Gurrumurru&quot;</name>
 			<styleUrl>#pointStyleMap100</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Places_MajorandMinor_191013_SSSSSDD">
+				<SchemaData schemaUrl="#S_Places_MajorandMinor_SSSSSDD">
 					<SimpleData name="NAME">Gurrumuru or &quot;Gurrumuru or &quot;Gurrumurru&quot;Gurrumuru or &quot;&quot;Gurrumurru&quot;</SimpleData>
 					<SimpleData name="TYPE">Minor</SimpleData>
 					<SimpleData name="ALT">ARNHEM LAND ABORIGINAL LAND TRUST</SimpleData>
@@ -334,7 +334,7 @@
 			<name>Hodgson River Station or &quot;Hodgson River Station or &quot;Station Homestead&quot;Hodgson River Station or &quot;&quot;Station Homestead&quot;</name>
 			<styleUrl>#pointStyleMap100</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Places_MajorandMinor_191013_SSSSSDD">
+				<SchemaData schemaUrl="#S_Places_MajorandMinor_SSSSSDD">
 					<SimpleData name="NAME">Hodgson River Station or &quot;Hodgson River Station or &quot;Station Homestead&quot;Hodgson River Station or &quot;&quot;Station Homestead&quot;</SimpleData>
 					<SimpleData name="TYPE">Minor</SimpleData>
 					<SimpleData name="ALT">0</SimpleData>
@@ -352,7 +352,7 @@
 			<name>Jilkminggan or &quot;Jilkminggan or &quot;Djembere&quot;Jilkminggan or &quot;&quot;Djembere&quot;;&quot;Jilkminggan or &quot;&quot;Djembere&quot;&quot;;&quot;Djilkminggan&quot;Jilkminggan or &quot;&quot;Djembere&quot;&quot;;&quot;&quot;Djilkminggan&quot;;&quot;Jilkminggan or &quot;&quot;Djembere&quot;&quot;;&quot;&quot;Djilkminggan&quot;&quot;;&quot;Duck Creek&quot;Jilkminggan or &quot;&quot;Djembere&quot;&quot;;&quot;&quot;Djilkminggan&quot;&quot;;&quot;&quot;Duck Creek&quot;;&quot;Jilkminggan or &quot;&quot;Djembere&quot;&quot;;&quot;&quot;Djilkminggan&quot;&quot;;&quot;&quot;Duck Creek&quot;&quot;;&quot;Jilkminggal&quot;Jilkminggan or &quot;&quot;Djembere&quot;&quot;;&quot;&quot;Djilkminggan&quot;&quot;;&quot;&quot;Duck Creek&quot;&quot;;&quot;&quot;Jilkminggal&quot;</name>
 			<styleUrl>#pointStyleMap100</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Places_MajorandMinor_191013_SSSSSDD">
+				<SchemaData schemaUrl="#S_Places_MajorandMinor_SSSSSDD">
 					<SimpleData name="NAME">Jilkminggan or &quot;Jilkminggan or &quot;Djembere&quot;Jilkminggan or &quot;&quot;Djembere&quot;;&quot;Jilkminggan or &quot;&quot;Djembere&quot;&quot;;&quot;Djilkminggan&quot;Jilkminggan or &quot;&quot;Djembere&quot;&quot;;&quot;&quot;Djilkminggan&quot;;&quot;Jilkminggan or &quot;&quot;Djembere&quot;&quot;;&quot;&quot;Djilkminggan&quot;&quot;;&quot;Duck Creek&quot;Jilkminggan or &quot;&quot;Djembere&quot;&quot;;&quot;&quot;Djilkminggan&quot;&quot;;&quot;&quot;Duck Creek&quot;;&quot;Jilkminggan or &quot;&quot;Djembere&quot;&quot;;&quot;&quot;Djilkminggan&quot;&quot;;&quot;&quot;Duck Creek&quot;&quot;;&quot;Jilkminggal&quot;Jilkminggan or &quot;&quot;Djembere&quot;&quot;;&quot;&quot;Djilkminggan&quot;&quot;;&quot;&quot;Duck Creek&quot;&quot;;&quot;&quot;Jilkminggal&quot;</SimpleData>
 					<SimpleData name="TYPE">Minor</SimpleData>
 					<SimpleData name="ALT">0</SimpleData>
@@ -370,7 +370,7 @@
 			<name>Kybrook Farm or &quot;Kybrook Farm or &quot;Copperfield Creek&quot;Kybrook Farm or &quot;&quot;Copperfield Creek&quot;</name>
 			<styleUrl>#pointStyleMap100</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Places_MajorandMinor_191013_SSSSSDD">
+				<SchemaData schemaUrl="#S_Places_MajorandMinor_SSSSSDD">
 					<SimpleData name="NAME">Kybrook Farm or &quot;Kybrook Farm or &quot;Copperfield Creek&quot;Kybrook Farm or &quot;&quot;Copperfield Creek&quot;</SimpleData>
 					<SimpleData name="TYPE">Minor</SimpleData>
 					<SimpleData name="ALT">0</SimpleData>
@@ -388,7 +388,7 @@
 			<name>Maningrida</name>
 			<styleUrl>#pointStyleMap100</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Places_MajorandMinor_191013_SSSSSDD">
+				<SchemaData schemaUrl="#S_Places_MajorandMinor_SSSSSDD">
 					<SimpleData name="NAME">Maningrida</SimpleData>
 					<SimpleData name="TYPE">Major</SimpleData>
 					<SimpleData name="ALT">ARNHEM LAND ABORIGINAL LAND TRUST</SimpleData>
@@ -406,7 +406,7 @@
 			<name>Manmoyi or &quot;Manmoyi or &quot;Manmoi&quot;Manmoyi or &quot;&quot;Manmoi&quot;</name>
 			<styleUrl>#pointStyleMap100</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Places_MajorandMinor_191013_SSSSSDD">
+				<SchemaData schemaUrl="#S_Places_MajorandMinor_SSSSSDD">
 					<SimpleData name="NAME">Manmoyi or &quot;Manmoyi or &quot;Manmoi&quot;Manmoyi or &quot;&quot;Manmoi&quot;</SimpleData>
 					<SimpleData name="TYPE">Minor</SimpleData>
 					<SimpleData name="ALT">ARNHEM LAND ABORIGINAL LAND TRUST</SimpleData>
@@ -424,7 +424,7 @@
 			<name>Manyallaluk or &quot;Manyallaluk or &quot;Eva Valley&quot;Manyallaluk or &quot;&quot;Eva Valley&quot;</name>
 			<styleUrl>#pointStyleMap100</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Places_MajorandMinor_191013_SSSSSDD">
+				<SchemaData schemaUrl="#S_Places_MajorandMinor_SSSSSDD">
 					<SimpleData name="NAME">Manyallaluk or &quot;Manyallaluk or &quot;Eva Valley&quot;Manyallaluk or &quot;&quot;Eva Valley&quot;</SimpleData>
 					<SimpleData name="TYPE">Minor</SimpleData>
 					<SimpleData name="ALT">MANYALLALUK ABORIGINAL LAND TRUST</SimpleData>
@@ -442,7 +442,7 @@
 			<name>Mapuru or &quot;Mapuru or &quot;Maparu&quot;Mapuru or &quot;&quot;Maparu&quot;;&quot;Mapuru or &quot;&quot;Maparu&quot;&quot;;&quot;Mapura&quot;Mapuru or &quot;&quot;Maparu&quot;&quot;;&quot;&quot;Mapura&quot;;&quot;Mapuru or &quot;&quot;Maparu&quot;&quot;;&quot;&quot;Mapura&quot;&quot;;&quot;Marparu&quot;Mapuru or &quot;&quot;Maparu&quot;&quot;;&quot;&quot;Mapura&quot;&quot;;&quot;&quot;Marparu&quot;</name>
 			<styleUrl>#pointStyleMap100</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Places_MajorandMinor_191013_SSSSSDD">
+				<SchemaData schemaUrl="#S_Places_MajorandMinor_SSSSSDD">
 					<SimpleData name="NAME">Mapuru or &quot;Mapuru or &quot;Maparu&quot;Mapuru or &quot;&quot;Maparu&quot;;&quot;Mapuru or &quot;&quot;Maparu&quot;&quot;;&quot;Mapura&quot;Mapuru or &quot;&quot;Maparu&quot;&quot;;&quot;&quot;Mapura&quot;;&quot;Mapuru or &quot;&quot;Maparu&quot;&quot;;&quot;&quot;Mapura&quot;&quot;;&quot;Marparu&quot;Mapuru or &quot;&quot;Maparu&quot;&quot;;&quot;&quot;Mapura&quot;&quot;;&quot;&quot;Marparu&quot;</SimpleData>
 					<SimpleData name="TYPE">Minor</SimpleData>
 					<SimpleData name="ALT">ARNHEM LAND ABORIGINAL LAND TRUST</SimpleData>
@@ -460,7 +460,7 @@
 			<name>Marlinja or &quot;Marlinja or &quot;Newcastle Waters&quot;Marlinja or &quot;&quot;Newcastle Waters&quot;</name>
 			<styleUrl>#pointStyleMap100</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Places_MajorandMinor_191013_SSSSSDD">
+				<SchemaData schemaUrl="#S_Places_MajorandMinor_SSSSSDD">
 					<SimpleData name="NAME">Marlinja or &quot;Marlinja or &quot;Newcastle Waters&quot;Marlinja or &quot;&quot;Newcastle Waters&quot;</SimpleData>
 					<SimpleData name="TYPE">Minor</SimpleData>
 					<SimpleData name="ALT">MARLINJA ABORIGINAL LAND TRUST</SimpleData>
@@ -478,7 +478,7 @@
 			<name>Minyerri or &quot;Minyerri or &quot;Hodgson Downs&quot;Minyerri or &quot;&quot;Hodgson Downs&quot;;&quot;Minyerri or &quot;&quot;Hodgson Downs&quot;&quot;;&quot;Miniyerre&quot;Minyerri or &quot;&quot;Hodgson Downs&quot;&quot;;&quot;&quot;Miniyerre&quot;;&quot;Minyerri or &quot;&quot;Hodgson Downs&quot;&quot;;&quot;&quot;Miniyerre&quot;&quot;;&quot;Minyere&quot;Minyerri or &quot;&quot;Hodgson Downs&quot;&quot;;&quot;&quot;Miniyerre&quot;&quot;;&quot;&quot;Minyere&quot;;&quot;Minyerri or &quot;&quot;Hodgson Downs&quot;&quot;;&quot;&quot;Miniyerre&quot;&quot;;&quot;&quot;Minyere&quot;&quot;;&quot;Minyeri&quot;Minyerri or &quot;&quot;Hodgson Downs&quot;&quot;;&quot;&quot;Miniyerre&quot;&quot;;&quot;&quot;Minyere&quot;&quot;;&quot;&quot;Minyeri&quot;;&quot;Minyerri or &quot;&quot;Hodgson Downs&quot;&quot;;&quot;&quot;Miniyerre&quot;&quot;;&quot;&quot;Minyere&quot;&quot;;&quot;&quot;Minyeri&quot;&quot;;&quot;Minyerre&quot;Minyerri or &quot;&quot;Hodgson Downs&quot;&quot;;&quot;&quot;Miniyerre&quot;&quot;;&quot;&quot;Minyere&quot;&quot;;&quot;&quot;Minyeri&quot;&quot;;&quot;&quot;Minyerre&quot;</name>
 			<styleUrl>#pointStyleMap100</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Places_MajorandMinor_191013_SSSSSDD">
+				<SchemaData schemaUrl="#S_Places_MajorandMinor_SSSSSDD">
 					<SimpleData name="NAME">Minyerri or &quot;Minyerri or &quot;Hodgson Downs&quot;Minyerri or &quot;&quot;Hodgson Downs&quot;;&quot;Minyerri or &quot;&quot;Hodgson Downs&quot;&quot;;&quot;Miniyerre&quot;Minyerri or &quot;&quot;Hodgson Downs&quot;&quot;;&quot;&quot;Miniyerre&quot;;&quot;Minyerri or &quot;&quot;Hodgson Downs&quot;&quot;;&quot;&quot;Miniyerre&quot;&quot;;&quot;Minyere&quot;Minyerri or &quot;&quot;Hodgson Downs&quot;&quot;;&quot;&quot;Miniyerre&quot;&quot;;&quot;&quot;Minyere&quot;;&quot;Minyerri or &quot;&quot;Hodgson Downs&quot;&quot;;&quot;&quot;Miniyerre&quot;&quot;;&quot;&quot;Minyere&quot;&quot;;&quot;Minyeri&quot;Minyerri or &quot;&quot;Hodgson Downs&quot;&quot;;&quot;&quot;Miniyerre&quot;&quot;;&quot;&quot;Minyere&quot;&quot;;&quot;&quot;Minyeri&quot;;&quot;Minyerri or &quot;&quot;Hodgson Downs&quot;&quot;;&quot;&quot;Miniyerre&quot;&quot;;&quot;&quot;Minyere&quot;&quot;;&quot;&quot;Minyeri&quot;&quot;;&quot;Minyerre&quot;Minyerri or &quot;&quot;Hodgson Downs&quot;&quot;;&quot;&quot;Miniyerre&quot;&quot;;&quot;&quot;Minyere&quot;&quot;;&quot;&quot;Minyeri&quot;&quot;;&quot;&quot;Minyerre&quot;</SimpleData>
 					<SimpleData name="TYPE">Major</SimpleData>
 					<SimpleData name="ALT">0</SimpleData>
@@ -496,7 +496,7 @@
 			<name>Nauiyu or &quot;Nauiyu or &quot;Daly River&quot;Nauiyu or &quot;&quot;Daly River&quot;;&quot;Nauiyu or &quot;&quot;Daly River&quot;&quot;;&quot;Namiyu&quot;Nauiyu or &quot;&quot;Daly River&quot;&quot;;&quot;&quot;Namiyu&quot;;&quot;Nauiyu or &quot;&quot;Daly River&quot;&quot;;&quot;&quot;Namiyu&quot;&quot;;&quot;Nauiyu Nambiyi&quot;Nauiyu or &quot;&quot;Daly River&quot;&quot;;&quot;&quot;Namiyu&quot;&quot;;&quot;&quot;Nauiyu Nambiyi&quot;;&quot;Nauiyu or &quot;&quot;Daly River&quot;&quot;;&quot;&quot;Namiyu&quot;&quot;;&quot;&quot;Nauiyu Nambiyi&quot;&quot;;&quot;Nauiyu Nambiyu&quot;Nauiyu or &quot;&quot;Daly River&quot;&quot;;&quot;&quot;Namiyu&quot;&quot;;&quot;&quot;Nauiyu Nambiyi&quot;&quot;;&quot;&quot;Nauiyu Nambiyu&quot;</name>
 			<styleUrl>#pointStyleMap100</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Places_MajorandMinor_191013_SSSSSDD">
+				<SchemaData schemaUrl="#S_Places_MajorandMinor_SSSSSDD">
 					<SimpleData name="NAME">Nauiyu or &quot;Nauiyu or &quot;Daly River&quot;Nauiyu or &quot;&quot;Daly River&quot;;&quot;Nauiyu or &quot;&quot;Daly River&quot;&quot;;&quot;Namiyu&quot;Nauiyu or &quot;&quot;Daly River&quot;&quot;;&quot;&quot;Namiyu&quot;;&quot;Nauiyu or &quot;&quot;Daly River&quot;&quot;;&quot;&quot;Namiyu&quot;&quot;;&quot;Nauiyu Nambiyi&quot;Nauiyu or &quot;&quot;Daly River&quot;&quot;;&quot;&quot;Namiyu&quot;&quot;;&quot;&quot;Nauiyu Nambiyi&quot;;&quot;Nauiyu or &quot;&quot;Daly River&quot;&quot;;&quot;&quot;Namiyu&quot;&quot;;&quot;&quot;Nauiyu Nambiyi&quot;&quot;;&quot;Nauiyu Nambiyu&quot;Nauiyu or &quot;&quot;Daly River&quot;&quot;;&quot;&quot;Namiyu&quot;&quot;;&quot;&quot;Nauiyu Nambiyi&quot;&quot;;&quot;&quot;Nauiyu Nambiyu&quot;</SimpleData>
 					<SimpleData name="TYPE">Major</SimpleData>
 					<SimpleData name="ALT">0</SimpleData>
@@ -514,7 +514,7 @@
 			<name>Ngangalala or &quot;Ngangalala or &quot;Nangala&quot;Ngangalala or &quot;&quot;Nangala&quot;;&quot;Ngangalala or &quot;&quot;Nangala&quot;&quot;;&quot;Nangalala&quot;Ngangalala or &quot;&quot;Nangala&quot;&quot;;&quot;&quot;Nangalala&quot;</name>
 			<styleUrl>#pointStyleMap100</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Places_MajorandMinor_191013_SSSSSDD">
+				<SchemaData schemaUrl="#S_Places_MajorandMinor_SSSSSDD">
 					<SimpleData name="NAME">Ngangalala or &quot;Ngangalala or &quot;Nangala&quot;Ngangalala or &quot;&quot;Nangala&quot;;&quot;Ngangalala or &quot;&quot;Nangala&quot;&quot;;&quot;Nangalala&quot;Ngangalala or &quot;&quot;Nangala&quot;&quot;;&quot;&quot;Nangalala&quot;</SimpleData>
 					<SimpleData name="TYPE">Minor</SimpleData>
 					<SimpleData name="ALT">ARNHEM LAND ABORIGINAL LAND TRUST</SimpleData>
@@ -532,7 +532,7 @@
 			<name>Ngukurr or &quot;Ngukurr or &quot;Roper River&quot;Ngukurr or &quot;&quot;Roper River&quot;</name>
 			<styleUrl>#pointStyleMap100</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Places_MajorandMinor_191013_SSSSSDD">
+				<SchemaData schemaUrl="#S_Places_MajorandMinor_SSSSSDD">
 					<SimpleData name="NAME">Ngukurr or &quot;Ngukurr or &quot;Roper River&quot;Ngukurr or &quot;&quot;Roper River&quot;</SimpleData>
 					<SimpleData name="TYPE">Major</SimpleData>
 					<SimpleData name="ALT">ARNHEM LAND ABORIGINAL LAND TRUST</SimpleData>
@@ -550,7 +550,7 @@
 			<name>Numbulwar or &quot;Numbulwar or &quot;Rose River&quot;Numbulwar or &quot;&quot;Rose River&quot;</name>
 			<styleUrl>#pointStyleMap100</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Places_MajorandMinor_191013_SSSSSDD">
+				<SchemaData schemaUrl="#S_Places_MajorandMinor_SSSSSDD">
 					<SimpleData name="NAME">Numbulwar or &quot;Numbulwar or &quot;Rose River&quot;Numbulwar or &quot;&quot;Rose River&quot;</SimpleData>
 					<SimpleData name="TYPE">Major</SimpleData>
 					<SimpleData name="ALT">ARNHEM LAND ABORIGINAL LAND TRUST</SimpleData>
@@ -568,7 +568,7 @@
 			<name>Pigeon Hole or &quot;Pigeon Hole or &quot;Bunbidee&quot;Pigeon Hole or &quot;&quot;Bunbidee&quot;</name>
 			<styleUrl>#pointStyleMap100</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Places_MajorandMinor_191013_SSSSSDD">
+				<SchemaData schemaUrl="#S_Places_MajorandMinor_SSSSSDD">
 					<SimpleData name="NAME">Pigeon Hole or &quot;Pigeon Hole or &quot;Bunbidee&quot;Pigeon Hole or &quot;&quot;Bunbidee&quot;</SimpleData>
 					<SimpleData name="TYPE">Minor</SimpleData>
 					<SimpleData name="ALT">BILINARA ABORIGINAL LAND TRUST</SimpleData>
@@ -586,7 +586,7 @@
 			<name>Ramingining</name>
 			<styleUrl>#pointStyleMap100</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Places_MajorandMinor_191013_SSSSSDD">
+				<SchemaData schemaUrl="#S_Places_MajorandMinor_SSSSSDD">
 					<SimpleData name="NAME">Ramingining</SimpleData>
 					<SimpleData name="TYPE">Major</SimpleData>
 					<SimpleData name="ALT">ARNHEM LAND ABORIGINAL LAND TRUST</SimpleData>
@@ -604,7 +604,7 @@
 			<name>Rittarangu or &quot;Rittarangu or &quot;Urapunga&quot;Rittarangu or &quot;&quot;Urapunga&quot;</name>
 			<styleUrl>#pointStyleMap100</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Places_MajorandMinor_191013_SSSSSDD">
+				<SchemaData schemaUrl="#S_Places_MajorandMinor_SSSSSDD">
 					<SimpleData name="NAME">Rittarangu or &quot;Rittarangu or &quot;Urapunga&quot;Rittarangu or &quot;&quot;Urapunga&quot;</SimpleData>
 					<SimpleData name="TYPE">Minor</SimpleData>
 					<SimpleData name="ALT">0</SimpleData>
@@ -622,7 +622,7 @@
 			<name>Robinson River or &quot;Robinson River or &quot;Mungoorbada&quot;Robinson River or &quot;&quot;Mungoorbada&quot;</name>
 			<styleUrl>#pointStyleMap100</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Places_MajorandMinor_191013_SSSSSDD">
+				<SchemaData schemaUrl="#S_Places_MajorandMinor_SSSSSDD">
 					<SimpleData name="NAME">Robinson River or &quot;Robinson River or &quot;Mungoorbada&quot;Robinson River or &quot;&quot;Mungoorbada&quot;</SimpleData>
 					<SimpleData name="TYPE">Major</SimpleData>
 					<SimpleData name="ALT">GARAWA ABORIGINAL LAND TRUST</SimpleData>
@@ -640,7 +640,7 @@
 			<name>Rockhole or &quot;Rockhole or &quot;Rochole&quot;Rockhole or &quot;&quot;Rochole&quot;</name>
 			<styleUrl>#pointStyleMap100</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Places_MajorandMinor_191013_SSSSSDD">
+				<SchemaData schemaUrl="#S_Places_MajorandMinor_SSSSSDD">
 					<SimpleData name="NAME">Rockhole or &quot;Rockhole or &quot;Rochole&quot;Rockhole or &quot;&quot;Rochole&quot;</SimpleData>
 					<SimpleData name="TYPE">Minor</SimpleData>
 					<SimpleData name="ALT">0</SimpleData>
@@ -658,7 +658,7 @@
 			<name>Rorruwuy or &quot;Rorruwuy or &quot;Burrawuy&quot;Rorruwuy or &quot;&quot;Burrawuy&quot;;&quot;Rorruwuy or &quot;&quot;Burrawuy&quot;&quot;;&quot;Rhodes Point&quot;Rorruwuy or &quot;&quot;Burrawuy&quot;&quot;;&quot;&quot;Rhodes Point&quot;</name>
 			<styleUrl>#pointStyleMap100</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Places_MajorandMinor_191013_SSSSSDD">
+				<SchemaData schemaUrl="#S_Places_MajorandMinor_SSSSSDD">
 					<SimpleData name="NAME">Rorruwuy or &quot;Rorruwuy or &quot;Burrawuy&quot;Rorruwuy or &quot;&quot;Burrawuy&quot;;&quot;Rorruwuy or &quot;&quot;Burrawuy&quot;&quot;;&quot;Rhodes Point&quot;Rorruwuy or &quot;&quot;Burrawuy&quot;&quot;;&quot;&quot;Rhodes Point&quot;</SimpleData>
 					<SimpleData name="TYPE">Minor</SimpleData>
 					<SimpleData name="ALT">ARNHEM LAND ABORIGINAL LAND TRUST</SimpleData>
@@ -676,7 +676,7 @@
 			<name>Wadeye or &quot;Wadeye or &quot;Port Keats&quot;Wadeye or &quot;&quot;Port Keats&quot;</name>
 			<styleUrl>#pointStyleMap100</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Places_MajorandMinor_191013_SSSSSDD">
+				<SchemaData schemaUrl="#S_Places_MajorandMinor_SSSSSDD">
 					<SimpleData name="NAME">Wadeye or &quot;Wadeye or &quot;Port Keats&quot;Wadeye or &quot;&quot;Port Keats&quot;</SimpleData>
 					<SimpleData name="TYPE">Major</SimpleData>
 					<SimpleData name="ALT">DALY RIVER/PORT KEATS ABORIGINAL LAND TRUST</SimpleData>
@@ -694,7 +694,7 @@
 			<name>Wandangula or &quot;Wandangula or &quot;Police Lagoon&quot;Wandangula or &quot;&quot;Police Lagoon&quot;;&quot;Wandangula or &quot;&quot;Police Lagoon&quot;&quot;;&quot;Wanda Ngula&quot;Wandangula or &quot;&quot;Police Lagoon&quot;&quot;;&quot;&quot;Wanda Ngula&quot;;&quot;Wandangula or &quot;&quot;Police Lagoon&quot;&quot;;&quot;&quot;Wanda Ngula&quot;&quot;;&quot;Wandagula&quot;Wandangula or &quot;&quot;Police Lagoon&quot;&quot;;&quot;&quot;Wanda Ngula&quot;&quot;;&quot;&quot;Wandagula&quot;</name>
 			<styleUrl>#pointStyleMap100</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Places_MajorandMinor_191013_SSSSSDD">
+				<SchemaData schemaUrl="#S_Places_MajorandMinor_SSSSSDD">
 					<SimpleData name="NAME">Wandangula or &quot;Wandangula or &quot;Police Lagoon&quot;Wandangula or &quot;&quot;Police Lagoon&quot;;&quot;Wandangula or &quot;&quot;Police Lagoon&quot;&quot;;&quot;Wanda Ngula&quot;Wandangula or &quot;&quot;Police Lagoon&quot;&quot;;&quot;&quot;Wanda Ngula&quot;;&quot;Wandangula or &quot;&quot;Police Lagoon&quot;&quot;;&quot;&quot;Wanda Ngula&quot;&quot;;&quot;Wandagula&quot;Wandangula or &quot;&quot;Police Lagoon&quot;&quot;;&quot;&quot;Wanda Ngula&quot;&quot;;&quot;&quot;Wandagula&quot;</SimpleData>
 					<SimpleData name="TYPE">Minor</SimpleData>
 					<SimpleData name="ALT">NARWINBI ABORIGINAL LAND TRUST</SimpleData>
@@ -712,7 +712,7 @@
 			<name>Weemol or &quot;Weemol or &quot;Weemoll&quot;Weemol or &quot;&quot;Weemoll&quot;;&quot;Weemol or &quot;&quot;Weemoll&quot;&quot;;&quot;Wemool&quot;Weemol or &quot;&quot;Weemoll&quot;&quot;;&quot;&quot;Wemool&quot;</name>
 			<styleUrl>#pointStyleMap100</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Places_MajorandMinor_191013_SSSSSDD">
+				<SchemaData schemaUrl="#S_Places_MajorandMinor_SSSSSDD">
 					<SimpleData name="NAME">Weemol or &quot;Weemol or &quot;Weemoll&quot;Weemol or &quot;&quot;Weemoll&quot;;&quot;Weemol or &quot;&quot;Weemoll&quot;&quot;;&quot;Wemool&quot;Weemol or &quot;&quot;Weemoll&quot;&quot;;&quot;&quot;Wemool&quot;</SimpleData>
 					<SimpleData name="TYPE">Minor</SimpleData>
 					<SimpleData name="ALT">ARNHEM LAND ABORIGINAL LAND TRUST</SimpleData>
@@ -730,7 +730,7 @@
 			<name>Woodycupaldiya or &quot;Woodycupaldiya or &quot;Woode Cupildiya&quot;Woodycupaldiya or &quot;&quot;Woode Cupildiya&quot;;&quot;Woodycupaldiya or &quot;&quot;Woode Cupildiya&quot;&quot;;&quot;Woodicupildya&quot;Woodycupaldiya or &quot;&quot;Woode Cupildiya&quot;&quot;;&quot;&quot;Woodicupildya&quot;;&quot;Woodycupaldiya or &quot;&quot;Woode Cupildiya&quot;&quot;;&quot;&quot;Woodicupildya&quot;&quot;;&quot;Woodykapildiya&quot;Woodycupaldiya or &quot;&quot;Woode Cupildiya&quot;&quot;;&quot;&quot;Woodicupildya&quot;&quot;;&quot;&quot;Woodykapildiya&quot;;&quot;Woodycupaldiya or &quot;&quot;Woode Cupildiya&quot;&quot;;&quot;&quot;Woodicupildya&quot;&quot;;&quot;&quot;Woodykapildiya&quot;&quot;;&quot;Woodykupuldiya&quot;Woodycupaldiya or &quot;&quot;Woode Cupildiya&quot;&quot;;&quot;&quot;Woodicupildya&quot;&quot;;&quot;&quot;Woodykapildiya&quot;&quot;;&quot;&quot;Woodykupuldiya&quot;;&quot;Woodycupaldiya or &quot;&quot;Woode Cupildiya&quot;&quot;;&quot;&quot;Woodicupildya&quot;&quot;;&quot;&quot;Woodykapildiya&quot;&quot;;&quot;&quot;Woodykupuldiya&quot;&quot;;&quot;Wudikapildiyeer&quot;Woodycupaldiya or &quot;&quot;Woode Cupildiya&quot;&quot;;&quot;&quot;Woodicupildya&quot;&quot;;&quot;&quot;Woodykapildiya&quot;&quot;;&quot;&quot;Woodykupuldiya&quot;&quot;;&quot;&quot;Wudikapildiyeer&quot;</name>
 			<styleUrl>#pointStyleMap100</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Places_MajorandMinor_191013_SSSSSDD">
+				<SchemaData schemaUrl="#S_Places_MajorandMinor_SSSSSDD">
 					<SimpleData name="NAME">Woodycupaldiya or &quot;Woodycupaldiya or &quot;Woode Cupildiya&quot;Woodycupaldiya or &quot;&quot;Woode Cupildiya&quot;;&quot;Woodycupaldiya or &quot;&quot;Woode Cupildiya&quot;&quot;;&quot;Woodicupildya&quot;Woodycupaldiya or &quot;&quot;Woode Cupildiya&quot;&quot;;&quot;&quot;Woodicupildya&quot;;&quot;Woodycupaldiya or &quot;&quot;Woode Cupildiya&quot;&quot;;&quot;&quot;Woodicupildya&quot;&quot;;&quot;Woodykapildiya&quot;Woodycupaldiya or &quot;&quot;Woode Cupildiya&quot;&quot;;&quot;&quot;Woodicupildya&quot;&quot;;&quot;&quot;Woodykapildiya&quot;;&quot;Woodycupaldiya or &quot;&quot;Woode Cupildiya&quot;&quot;;&quot;&quot;Woodicupildya&quot;&quot;;&quot;&quot;Woodykapildiya&quot;&quot;;&quot;Woodykupuldiya&quot;Woodycupaldiya or &quot;&quot;Woode Cupildiya&quot;&quot;;&quot;&quot;Woodicupildya&quot;&quot;;&quot;&quot;Woodykapildiya&quot;&quot;;&quot;&quot;Woodykupuldiya&quot;;&quot;Woodycupaldiya or &quot;&quot;Woode Cupildiya&quot;&quot;;&quot;&quot;Woodicupildya&quot;&quot;;&quot;&quot;Woodykapildiya&quot;&quot;;&quot;&quot;Woodykupuldiya&quot;&quot;;&quot;Wudikapildiyeer&quot;Woodycupaldiya or &quot;&quot;Woode Cupildiya&quot;&quot;;&quot;&quot;Woodicupildya&quot;&quot;;&quot;&quot;Woodykapildiya&quot;&quot;;&quot;&quot;Woodykupuldiya&quot;&quot;;&quot;&quot;Wudikapildiyeer&quot;</SimpleData>
 					<SimpleData name="TYPE">Minor</SimpleData>
 					<SimpleData name="ALT">DALY RIVER/PORT KEATS ABORIGINAL LAND TRUST</SimpleData>
@@ -748,7 +748,7 @@
 			<name>Yarralin</name>
 			<styleUrl>#pointStyleMap100</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Places_MajorandMinor_191013_SSSSSDD">
+				<SchemaData schemaUrl="#S_Places_MajorandMinor_SSSSSDD">
 					<SimpleData name="NAME">Yarralin</SimpleData>
 					<SimpleData name="TYPE">Major</SimpleData>
 					<SimpleData name="ALT">0</SimpleData>
@@ -766,7 +766,7 @@
 			<name>Yathalamarra or &quot;Yathalamarra or &quot;Yathalamara&quot;Yathalamarra or &quot;&quot;Yathalamara&quot;;&quot;Yathalamarra or &quot;&quot;Yathalamara&quot;&quot;;&quot;Yathalmarra&quot;Yathalamarra or &quot;&quot;Yathalamara&quot;&quot;;&quot;&quot;Yathalmarra&quot;</name>
 			<styleUrl>#pointStyleMap100</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Places_MajorandMinor_191013_SSSSSDD">
+				<SchemaData schemaUrl="#S_Places_MajorandMinor_SSSSSDD">
 					<SimpleData name="NAME">Yathalamarra or &quot;Yathalamarra or &quot;Yathalamara&quot;Yathalamarra or &quot;&quot;Yathalamara&quot;;&quot;Yathalamarra or &quot;&quot;Yathalamara&quot;&quot;;&quot;Yathalmarra&quot;Yathalamarra or &quot;&quot;Yathalamara&quot;&quot;;&quot;&quot;Yathalmarra&quot;</SimpleData>
 					<SimpleData name="TYPE">Minor</SimpleData>
 					<SimpleData name="ALT">ARNHEM LAND ABORIGINAL LAND TRUST</SimpleData>
@@ -784,7 +784,7 @@
 			<name>Yirrkala</name>
 			<styleUrl>#pointStyleMap100</styleUrl>
 			<ExtendedData>
-				<SchemaData schemaUrl="#S_Places_MajorandMinor_191013_SSSSSDD">
+				<SchemaData schemaUrl="#S_Places_MajorandMinor_SSSSSDD">
 					<SimpleData name="NAME">Yirrkala</SimpleData>
 					<SimpleData name="TYPE">Major</SimpleData>
 					<SimpleData name="ALT">ARNHEM LAND ABORIGINAL LAND TRUST</SimpleData>

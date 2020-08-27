@@ -1,0 +1,78 @@
+{
+    "corsDomains" : [
+        "corsproxy.com",
+        "programs.communications.gov.au",
+        "mapsengine.google.com",
+        "s3-ap-southeast-2.amazonaws.com",
+        "data.melbourne.vic.gov.au",
+        "data.act.gov.au",
+        "dea.ga.gov.au",
+        "gsky.nci.org.au",
+        "discover.data.vic.gov.au",
+        "asris.csiro.au",
+        "services.ga.gov.au"
+    ],
+    "homeCamera": {
+        "west": 128.9,
+        "south": -25.2,
+        "east": 138.2,
+        "north": -9.7
+    },
+    "services": [],
+    "catalog": [
+        {
+            "name": "HEMA Maps and Others",
+            "type": "group",
+            "isPromoted": true,
+            "isOpen": false,
+            "items": [
+              {
+                "name": "Hema Campsites in NLC regions",
+                "type": "kml",
+                "isLegendVisible": false,
+                "url": "public/kmz/HemaCampsitesinALTs.kmz",
+                "shortReport": "Hema published campsites in NLC regions",
+                "description": "Hema published campsites in Aboriginal Land Trust properies."
+
+              },
+              {
+                "name": "Hema Points Of Interest",
+                "type": "kml",
+                "isLegendVisible": false,
+                "url": "public/kmz/HemaPointsofInterest.kmz"
+              },
+              {
+                "name": "Hema Roads Service Sites",
+                "type": "kml",
+                "isLegendVisible": false,
+                "url": "public/kmz/HemaRoadServiceSites.kmz"
+              },
+              {
+                "name": "Hema Map Layer",
+                "type": "mapbox-style",
+                "dataUrlType": "direct",
+                "isRequiredForRendering": true,
+                "tilesize": 256,
+                "username": "hemamaps",
+                "styleId": "cjpx65c27073h2smhvkqw0ifb",
+                "accessToken": "pk.eyJ1IjoiaGVtYW1hcHMiLCJhIjoiY2sxYmtoNGQwMm55aDNicGtkdGVrdDNlcyJ9.JB0u6oexiwzpOVydhY3dsA",
+                "isLegendVisible": false,
+                "url": "https://api.mapbox.com/styles/v1/"
+              },
+
+              {
+                "name": "Other Place Names",
+                "type": "kml",
+                "isLegendVisible": false,
+                "url": "public/kmz/Places-AllOthers-191016.kmz"
+              },
+            ]
+        }
+    ],
+    "initalCamera": {
+          "north": -8,
+          "east": 158,
+          "south": -45,
+          "west": 109
+          }
+}
