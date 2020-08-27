@@ -36,6 +36,15 @@
                 "isLegendVisible": false,
               },
               {
+                "name": "Major & Minor Place Names",
+                "type": "kml",
+                "isEnabled": true,
+                "isHidden": false,
+                "isShown": false,
+                "isLegendVisible": false,
+                "url": "public/kmz/Places-MajorandMinor.kml"
+              },
+              {
                 "name": "NLC Permit Regions",
                 "type": "kml",
                 "url": "public/kmz/NLCRegions.kml",
@@ -122,8 +131,11 @@
               {
                 "name": "Family Outstations",
                 "type": "kml",
+                "url": "public/kmz/FamilyOutstations2.kml",
+                "isEnabled": true,
+                "isHidden": true,
+                "isShown": false,
                 "isLegendVisible": false,
-                "url": "public/kmz/Places-FamilyOutstations-191013.kmz"
               },
               {
                 "name": "Telstra facilties",
@@ -282,12 +294,6 @@
                 "type": "kml",
                 "isLegendVisible": false,
                 "url": "public/kmz/HemaRoadServiceSites.kmz"
-              },
-              {
-                "name": "Place Names",
-                "type": "kml",
-                "isLegendVisible": false,
-                "url": "public/kmz/Places-MajorandMinor-191013.kmz"
               },
               {
                 "name": "Other Place Names",

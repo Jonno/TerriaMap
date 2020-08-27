@@ -1,4 +1,4 @@
-const globeGif = require('./lib/Styles/globe.gif');
+const globeGif = require('./lib/Styles/welcome-nlc.gif');
 require('./lib/Styles/loader.css');
 
 function loadMainScript() {
@@ -8,7 +8,7 @@ function loadMainScript() {
             resolve(require('./index'));
         }, function(error) {
             reject(error);
-        }, 'index'); 
+        }, 'index');
     });
 }
 
@@ -42,5 +42,3 @@ function createLoader() {
 }
 
 createLoader();
-
-
