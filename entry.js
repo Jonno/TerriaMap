@@ -1,4 +1,4 @@
-const globeGif = require('./lib/Styles/welcome-nlc.gif');
+const globeGif = require('./lib/Styles/globe.gif');
 require('./lib/Styles/loader.css');
 
 function loadMainScript() {
