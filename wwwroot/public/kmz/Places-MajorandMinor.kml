@@ -4,19 +4,19 @@
 	<name>Places-MajorandMinor</name>
 	<description>Dated - -191013</description>
 	<Schema name="Places-MajorandMinor" id="S_Places_MajorandMinor_SSSSSDD">
-		<SimpleField type="string" name="NAME"><displayName>&lt;b&gt;NAME&lt;/b&gt;</displayName>
+		<SimpleField type="string" name="NAME"><displayName>NAME</displayName>
 </SimpleField>
-		<SimpleField type="string" name="TYPE"><displayName>&lt;b&gt;TYPE&lt;/b&gt;</displayName>
+		<SimpleField type="string" name="TYPE"><displayName>TYPE</displayName>
 </SimpleField>
-		<SimpleField type="string" name="ALT"><displayName>&lt;b&gt;ALT&lt;/b&gt;</displayName>
+		<SimpleField type="string" name="ALT"><displayName>ALT</displayName>
 </SimpleField>
-		<SimpleField type="string" name="NLC_Region"><displayName>&lt;b&gt;NLC Region&lt;/b&gt;</displayName>
+		<SimpleField type="string" name="NLC_Region"><displayName>NLC Region</displayName>
 </SimpleField>
-		<SimpleField type="string" name="LGA"><displayName>&lt;b&gt;LGA&lt;/b&gt;</displayName>
+		<SimpleField type="string" name="LGA"><displayName>LGA</displayName>
 </SimpleField>
-		<SimpleField type="double" name="LONGITUDE"><displayName>&lt;b&gt;LONGITUDE&lt;/b&gt;</displayName>
+		<SimpleField type="double" name="LONGITUDE"><displayName>LONGITUDE</displayName>
 </SimpleField>
-		<SimpleField type="double" name="LATITUDE"><displayName>&lt;b&gt;LATITUDE&lt;/b&gt;</displayName>
+		<SimpleField type="double" name="LATITUDE"><displayName>LATITUDE</displayName>
 </SimpleField>
 	</Schema>
 	<StyleMap id="pointStyleMap100">
@@ -32,7 +32,7 @@
 	<Style id="normPointStyle100">
 		<IconStyle>
 			<color>ff00aaff</color>
-			<scale>1.4</scale>
+			<scale>0.5</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
 			</Icon>
@@ -42,8 +42,8 @@
 		</LabelStyle>
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
-  <tr><td><b>NAME</b></td><td>$[Places-MajorandMinor/NAME]</td></tr>
-  <tr><td><b>TYPE</b></td><td>$[Places-MajorandMinor/TYPE]</td></tr>
+  <tr><td><b>NAME</b></td><td>$[NAME]</td></tr>
+  <tr><td><b>TYPE</b></td><td>$[TYPE]</td></tr>
   <tr><td><b>ALT</b></td><td>$[Places-MajorandMinor/ALT]</td></tr>
   <tr><td><b>NLC Region</b></td><td>$[Places-MajorandMinor/NLC_Region]</td></tr>
   <tr><td><b>LGA</b></td><td>$[Places-MajorandMinor/LGA]</td></tr>
@@ -55,7 +55,7 @@
 	<Style id="hlightPointStyle100">
 		<IconStyle>
 			<color>ff00aaff</color>
-			<scale>1.4</scale>
+			<scale>0.5</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
 			</Icon>
@@ -65,8 +65,8 @@
 		</LabelStyle>
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
-  <tr><td><b>NAME</b></td><td>$[Places-MajorandMinor/NAME]</td></tr>
-  <tr><td><b>TYPE</b></td><td>$[Places-MajorandMinor/TYPE]</td></tr>
+  <tr><td><b>NAME</b></td><td>$[NAME]</td></tr>
+  <tr><td><b>TYPE</b></td><td>$[TYPE]</td></tr>
   <tr><td><b>ALT</b></td><td>$[Places-MajorandMinor/ALT]</td></tr>
   <tr><td><b>NLC Region</b></td><td>$[Places-MajorandMinor/NLC_Region]</td></tr>
   <tr><td><b>LGA</b></td><td>$[Places-MajorandMinor/LGA]</td></tr>
@@ -76,7 +76,7 @@
 		</BalloonStyle>
 	</Style>
 	<Folder id="layer 0">
-		<name>Places-MajorandMinor-191013</name>
+		<name>Places-MajorandMinor</name>
 		<open>1</open>
 		<Placemark>
 			<name>Amanbidji or &quot;Amanbidji or &quot;Amanbidgee Station&quot;Amanbidji or &quot;&quot;Amanbidgee Station&quot;;&quot;Amanbidji or &quot;&quot;Amanbidgee Station&quot;&quot;;&quot;Kildurk&quot;Amanbidji or &quot;&quot;Amanbidgee Station&quot;&quot;;&quot;&quot;Kildurk&quot;;&quot;Amanbidji or &quot;&quot;Amanbidgee Station&quot;&quot;;&quot;&quot;Kildurk&quot;&quot;;&quot;Mialuni&quot;Amanbidji or &quot;&quot;Amanbidgee Station&quot;&quot;;&quot;&quot;Kildurk&quot;&quot;;&quot;&quot;Mialuni&quot;</name>

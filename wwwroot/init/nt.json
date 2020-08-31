@@ -94,6 +94,19 @@
                 "dataCustodian": "NT Department Of Land Information"
               },
               {
+                "name": "NT Water Bores",
+                "url": "http://wms1.ntlis.nt.gov.au/ilismap",
+                "type": "wms",
+                "isEnabled": false,
+                "isHidden": false,
+                "isLegendVisible": false,
+                "isShown": false,
+                "opacity": 1.0,
+                "layers": "80",
+                "dataUrl": "http://wms1.ntlis.nt.gov.au/ilismap",
+                "dataCustodian": "NT Department Of Land Information"
+              },
+              {
                 "name": "NT Alcohol Exclusion Zones",
                 "url": "http://wms1.ntlis.nt.gov.au/ilismap",
                 "type": "wms",
