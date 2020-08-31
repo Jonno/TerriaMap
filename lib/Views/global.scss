@@ -6,6 +6,14 @@ body {
   overflow: hidden;
 }
 
+.tjs-workbench-item__workbench-item {
+  background: #000000;
+  color: #f37407;
+  font-family: "Open Sans", sans-serif;
+  margin: 5px 0;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
 :global {
   @media print {
     .nationalmap-print-disclaimer {

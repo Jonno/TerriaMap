@@ -41,6 +41,9 @@ export default function UserInterface(props) {
           key="nlc-link"
         />
       </Menu>
+      <Nav>
+        <MeasureTool terria={props.viewState.terria} key="measure-tool" />
+      </Nav>
       <ExperimentalMenu>
         <If condition={isBrowserSupportedAV()}>
           <SplitPoint

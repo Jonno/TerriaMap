@@ -24,7 +24,7 @@
             "name": "Northern Land Council",
             "type": "group",
             "isPromoted": true,
-            "isOpen": false, 
+            "isOpen": false,
             "description": "![NLC Logo](https://www.nlc.org.au/img/northern-land-council.svg)\n\nLayers relevant to the operations of the Northern Land Council.",
 
             "items": [
