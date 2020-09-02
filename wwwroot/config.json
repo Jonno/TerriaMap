@@ -1,23 +1,25 @@
 {
-    /* Names of init files (in wwwroot/init), without the .json extension, to load by default */
-    initializationUrls: [
+    "initializationUrls": [
         "nlc",
         "nt",
         "science",
-        "hema"
+        "hema",
     ],
-    parameters: {
-        googleUrlShortenerKey: null,
-        googleAnalyticsKey: "UA-175182576-1",
-        googleAnalyticsOptions: null,
+    "parameters": {
+        "bingMapsKey": "An-jF5aWaqu7h03teRI9bMHPclY9-NptL_eH_8GoMFG40HAzgWSKGfWVFYusBRVT",
+        "googleUrlShortenerKey": null,
+        "googleAnalyticsKey": "UA-175182576-1",
+        "googleAnalyticsOptions": null,
+        "useCesiumIonTerrain": true,
+        "cesiumIonAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJkZjAxMjVjMi03MTVkLTQ1MmMtOGE5MC1hMWZmYmMzMjllN2YiLCJpZCI6MzI1MDYsInNjb3BlcyI6WyJhc3IiLCJnYyJdLCJpYXQiOjE1OTcxMDAwNzh9.nO5VUYzViDYq3sM_ZkBihJQHjOt28TR_SsmRUm7ucac",
         /* Text that appears at the bottom of the map */
-        disclaimer: {
-            text: "Disclaimer: This map must not be used for navigation or precise spatial analysis",
+        "disclaimer": {
+            text: "Disclaimer: Maps.nlc.org.au must not be used for navigation or precise spatial analysis",
             url: ""
         },
         /*
         // Text that will be added to any pages printed from your site.
-        printDisclaimer:{
+        "printDisclaimer":{
             text:"Put your print disclaimer here.",
             url: "#"
         },
@@ -25,10 +27,10 @@
 
         // Pop-up disclaimer that will be shown at the start
         // The text of the disclaimer is in lib/Views/GlobalDisclaimer.html
-        // globalDisclaimer: {
-        //     confirmationRequired: false,
-        //     buttonTitle: "I agree",
-        //     title: "Disclaimer",
+        // "globalDisclaimer": {
+        //     "confirmationRequired": false,
+        //     "buttonTitle": "I agree",
+        //     "title": "Disclaimer",
         //     // If the current browser location is not prod, or is dev, then show a "not the real site" warning.
         //     // The text of that is in lib/Views/DevelopmentDisclaimerPreamble.html
         //     //prodHostRegex: "gov.\\.au$",
@@ -37,29 +39,29 @@
         // },
 
         /*
-        developerAttribution: {
-            text: "Northern Land Council",
-            link: "https://nlc.org.au"
+        "developerAttribution": {
+            "text": "Northern Land Council",
+            "link": "https://nlc.org.au"
         },*/
         // This is used in various text messages. You should also set <title> in index.html
         appName: "Northern Land Council Maps",
 
         // See comments in lib/Views/global.scss for further information about customising colors, logos, fonts etc.
-        brandBarElements: [
+        "brandBarElements": [
             "",
             "<a target=\"_blank\" href=\"https://nlc.org.au\"><img src=\"images/northern-land-council.png\" height=\"52\" title=\"Version: {{version}}\" /></a>",
             ""
         ],
         // Shown when things go wrong.
-        supportEmail: "permits@nlc.org.au",
+        "supportEmail": "permits@nlc.org.au",
         // You probably shouldn't change this.
-        proj4ServiceBaseUrl: "proj4def/",
+        "proj4ServiceBaseUrl": "proj4def/",
         // Or this
-        feedbackUrl: "feedback",
+        "feedbackUrl": "feedback",
 
         // Default mobile viewer mode when loading the map for the first time on mobile platforms.
         // Options are: "3DTerrain", "3DSmooth", "2D"
-        mobileDefaultViewerMode: "3DTerrain",
+        "mobileDefaultViewerMode": "3DTerrain",
         // Enable experimental features, since its nice to have the bleeding edge.
         // Disable it if things go wrong with the experimental features or your users aren't robust to features which might change or disapear completly.
         "experimentalFeatures": true,
