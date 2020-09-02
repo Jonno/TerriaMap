@@ -10,7 +10,7 @@
         "googleUrlShortenerKey": null,
         "googleAnalyticsKey": "UA-175182576-1",
         "googleAnalyticsOptions": null,
-        "useCesiumIonTerrain": true,
+        "useCesiumIonTerrain": false,
         "cesiumIonAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJkZjAxMjVjMi03MTVkLTQ1MmMtOGE5MC1hMWZmYmMzMjllN2YiLCJpZCI6MzI1MDYsInNjb3BlcyI6WyJhc3IiLCJnYyJdLCJpYXQiOjE1OTcxMDAwNzh9.nO5VUYzViDYq3sM_ZkBihJQHjOt28TR_SsmRUm7ucac",
         /* Text that appears at the bottom of the map */
         "disclaimer": {
