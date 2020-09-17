@@ -1,0 +1,11 @@
+/* Show it is fixed to the top */
+body {
+  min-height: 75rem;
+  padding-top: 4.5rem;
+}
+
+.nav-bg {
+  background-image: url(https://permits-qa.nlc.org.au/images/header-bg.svg?6c6f4a29a8941f5578e18f09f380c517);
+  background-position: 100% 100%;
+  background-size: 50% auto;
+}

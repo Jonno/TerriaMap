@@ -1,0 +1,61 @@
+<div class="container py-2">
+    <div class="row">
+        <div class="col">
+            <div class="btn-group btn-group-sm btn-group-toggle" role="group" aria-label="Button group with nested dropdown">
+              <button type="button" class="btn btn-secondary  active">Today</button>
+              <button type="button" class="btn btn-secondary">Last 7 Days</button>
+              <button type="button" class="btn btn-secondary">Last Month</button>
+
+              <div class="btn-group btn-group-sm" role="group">
+                <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Custom
+                </button>
+                <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                  <a class="dropdown-item" href="#">Calendar Widget</a>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+              {  // Error with login
+                "name": "Forests of Australia",
+                "url": "https://data.gov.au/geoserver/forests-of-australia-2018/wms",
+                "type": "wms",
+                "isEnabled": false,
+                "isHidden": false,
+                "isLegendVisible": false,
+                "isShown": false,
+                "opacity": 1.0,
+                "isGeoserver": true,
+                "layers": "ckan_6ebffd6f_a937_4fa6_843a_3fde2effbacd",
+                "dataUrl": "https://data.gov.au/geoserver/forests-of-australia-2018/wms",
+                "dataCustodian": "Firenorth.org.au"
+              },
+
+
+              {
+                "name": "NLC Permit roads",
+                "type": "esri-featureServer",
+                "dataUrlType": "wfs",
+                "url": "https://ngs.nlc.org.au/arcgis/",
+                "layers": "Permit_Roads_5379_layer",
+                "metadataUrl": "https://ngs.nlc.org.au/arcgis/rest/services/Hosted/Permit_Roads/FeatureServer/0/metadata",
+                "isEnabled": true,
+                "isHidden": false,
+                "isShown": false,
+                "isLegendVisible": false,
+              },
+
+
+              {
+                "name": "NLC Permit Regions",
+                "type": "kml",
+                "url": "public/kmz/NLCRegions.kml",
+                "isEnabled": true,
+                "isHidden": false,
+                "isShown": false,
+                "isLegendVisible": false,
+              },
