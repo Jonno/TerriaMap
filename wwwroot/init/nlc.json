@@ -105,6 +105,24 @@
                 "url": "public/kmz/ParksinNLCRegion.kmz"
               },
               {
+                "name": "Kenbi Land Trust",
+                "type": "kml",
+                "isEnabled": false,
+                "isHidden": true,
+                "isShown": false,
+                "isLegendVisible": false,
+                "url": "public/kmz/Kenbi_layers.kmz"
+              },
+              {
+                "name": "Kenbi Outlines",
+                "type": "kml",
+                "isEnabled": false,
+                "isHidden": true,
+                "isShown": false,
+                "isLegendVisible": false,
+                "url": "public/kmz/KenbiOutlines.kml"
+              },
+              {
                 "name": "Major Watercourses in NLC regions",
                 "type": "kml",
                 "isLegendVisible": false,
@@ -152,7 +170,6 @@
                 "isLegendVisible": false,
                 "url": "public/kmz/TelstraSites.kml"
               },
-
               {
                 "url": "https://www.asris.csiro.au/arcgis/rest/services/abares/tenure_of_australias_forests_2018/MapServer",
                 "type": "esri-mapServer",

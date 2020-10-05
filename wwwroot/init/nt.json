@@ -146,6 +146,19 @@
                 "dataCustodian": "NT Department Of Land Information"
               },
               {
+                "name": "Topographic Maps 10000",
+                "url": "http://wms1.ntlis.nt.gov.au/ilismap",
+                "type": "wms",
+                "isEnabled": false,
+                "isHidden": false,
+                "isLegendVisible": false,
+                "isShown": false,
+                "opacity": 1.0,
+                "layers": "29",
+                "dataUrl": "http://wms1.ntlis.nt.gov.au/ilismap",
+                "dataCustodian": "NT Department Of Land Information"
+              },
+              {
                 "name": "Topographic Maps 25000",
                 "url": "http://wms1.ntlis.nt.gov.au/ilismap",
                 "type": "wms",

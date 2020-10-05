@@ -30,6 +30,8 @@
 
   $(document).ready(function(){
       $("#check_rego").click(function(){
+        $('#colRegNum').val('');
+        $('#colRegState').val('');
         $("#rego-num").val(function(i,val) {
         return val.replace(/\s+/g, '').toUpperCase();
           });
@@ -56,18 +58,22 @@
 
           $.ajax(settings).done(function (response) {
             console.log(response);
-            $('#colRegNum').val(response.data.nevdisPlateSearch_v2[0].plate.number);
-            $('#colRegState').val(response.data.nevdisPlateSearch_v2[0].plate.state);
-            $('#colVehicleMake').val(response.data.nevdisPlateSearch_v2[0].make);
-            $('#colVehicleModel').val(response.data.nevdisPlateSearch_v2[0].model);
-            $('#colVehicleType').val(response.data.nevdisPlateSearch_v2[0].vehicle_type);
-            $('#colVehicleBody').val(response.data.nevdisPlateSearch_v2[0].body_type);
-            $('#colVehicleColour').val(response.data.nevdisPlateSearch_v2[0].colour);
-            $('#colVehicleEngNumber').val(response.data.nevdisPlateSearch_v2[0].engine_number);
-            $('#colVehicleVinNumber').val(response.data.nevdisPlateSearch_v2[0].vin);
-            //             $('#myProfile input[name="name"]').val(user.name);
-            //             $('#myProfile input[name="email"]').val(user.email);
-            //             $('#myProfile input[name="dob"]').val(globals.formatDate(user.dob));
+            if(response.data.nevdisPlateSearch_v2.length > 0 ) {
+              $('#colRegNum').val(response.data.nevdisPlateSearch_v2[0].plate.number);
+              $('#colRegState').val(response.data.nevdisPlateSearch_v2[0].plate.state);
+              $('#colVehicleMake').val(response.data.nevdisPlateSearch_v2[0].make);
+              $('#colVehicleModel').val(response.data.nevdisPlateSearch_v2[0].model);
+              $('#colVehicleType').val(response.data.nevdisPlateSearch_v2[0].vehicle_type);
+              $('#colVehicleBody').val(response.data.nevdisPlateSearch_v2[0].body_type);
+              $('#colVehicleColour').val(response.data.nevdisPlateSearch_v2[0].colour);
+              $('#colVehicleEngNumber').val(response.data.nevdisPlateSearch_v2[0].engine_number);
+              $('#colVehicleVinNumber').val(response.data.nevdisPlateSearch_v2[0].vin);
+              $('#resultbox').addClass('visible');
+              $('#resultbox').removeClass('invisible');
+            } else if (response.data.errors.length > 0) {
+              $('#errorbox').addClass('visible');
+              $('#errorbox').removeClass('invisible');
+            }
           });
 
 
